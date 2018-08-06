@@ -1,4 +1,4 @@
-# citrix-netscaler-nitro-yaml-specs
+# citrix-netscaler-nitro-11-yaml-specs
 
 Yaml specifications of the Citrix Netscaler nitro api version 11.
 
