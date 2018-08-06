@@ -10,7 +10,6 @@ Spec for **lbvserver_pqpolicy_binding** binding - [citrix documentation page](ht
 
 - name
 - policyname
-- bindpoint
 
 ## Operations
 
@@ -25,7 +24,6 @@ Spec for **lbvserver_pqpolicy_binding** binding - [citrix documentation page](ht
 
 | Name | Type |
 |----|----|
-| bindpoint | REQUEST, RESPONSE |
 | gotopriorityexpression | string |
 | invoke | bool |
 | labelname | string |

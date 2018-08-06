@@ -4,7 +4,6 @@ key:
 fields:
   ipaddress:                              ip
   port:                                   int
-  transport:                              (ipfix|logstream)
   netprofile:                             netprofile.name
 update:
   - ipaddress

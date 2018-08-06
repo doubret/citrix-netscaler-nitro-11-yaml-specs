@@ -32,11 +32,7 @@ Identifier : name
 | clientsidemeasurements | No | ENABLED, DISABLED |
 | collectors | No | appflowcollector.name[] |
 | comment | No | string |
-| distributionalgorithm | No | ENABLED, DISABLED |
-| metricslog | No | bool |
 | pagetracking | No | ENABLED, DISABLED |
 | securityinsight | No | ENABLED, DISABLED |
-| transactionlog | No | ANOMALOUS, NONE, ALL |
-| videoanalytics | No | ENABLED, DISABLED |
 | webinsight | No | ENABLED, DISABLED |
 

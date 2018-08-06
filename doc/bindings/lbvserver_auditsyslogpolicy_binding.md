@@ -10,7 +10,6 @@ Spec for **lbvserver_auditsyslogpolicy_binding** binding - [citrix documentation
 
 - name
 - policyname
-- bindpoint
 
 ## Operations
 
@@ -25,7 +24,6 @@ Spec for **lbvserver_auditsyslogpolicy_binding** binding - [citrix documentation
 
 | Name | Type |
 |----|----|
-| bindpoint | REQUEST, RESPONSE |
 | gotopriorityexpression | string |
 | invoke | bool |
 | labelname | string |

@@ -10,7 +10,6 @@ Spec for **lbvserver_videooptimizationpolicy_binding** binding - [citrix documen
 
 - name
 - policyname
-- bindpoint
 
 ## Operations
 
@@ -25,7 +24,6 @@ Spec for **lbvserver_videooptimizationpolicy_binding** binding - [citrix documen
 
 | Name | Type |
 |----|----|
-| bindpoint | REQUEST, RESPONSE |
 | gotopriorityexpression | string |
 | invoke | bool |
 | labelname | string |

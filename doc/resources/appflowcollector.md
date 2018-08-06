@@ -32,5 +32,4 @@ Identifier : name
 | ipaddress | No | ip |
 | netprofile | No | netprofile.name |
 | port | No | int |
-| transport | No | ipfix, logstream |
 

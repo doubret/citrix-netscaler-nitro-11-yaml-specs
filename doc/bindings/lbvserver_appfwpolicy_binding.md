@@ -10,7 +10,6 @@ Spec for **lbvserver_appfwpolicy_binding** binding - [citrix documentation page]
 
 - name
 - policyname
-- bindpoint
 
 ## Operations
 
@@ -25,7 +24,6 @@ Spec for **lbvserver_appfwpolicy_binding** binding - [citrix documentation page]
 
 | Name | Type |
 |----|----|
-| bindpoint | REQUEST, RESPONSE |
 | gotopriorityexpression | string |
 | invoke | bool |
 | labelname | string |

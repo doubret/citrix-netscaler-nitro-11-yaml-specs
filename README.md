@@ -44,6 +44,7 @@ You can find the documentation describing the format of the resource and binding
 - [csaction](doc/resources/csaction.md)
 - [cspolicy](doc/resources/cspolicy.md)
 - [cspolicylabel](doc/resources/cspolicylabel.md)
+- [csvserver](doc/resources/csvserver.md)
 - [dbdbprofile](doc/resources/dbdbprofile.md)
 - [dnsaction64](doc/resources/dnsaction64.md)
 - [dnspolicy64](doc/resources/dnspolicy64.md)

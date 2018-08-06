@@ -10,7 +10,6 @@ Spec for **lbvserver_authorizationpolicy_binding** binding - [citrix documentati
 
 - name
 - policyname
-- bindpoint
 
 ## Operations
 
@@ -25,7 +24,6 @@ Spec for **lbvserver_authorizationpolicy_binding** binding - [citrix documentati
 
 | Name | Type |
 |----|----|
-| bindpoint | REQUEST, RESPONSE |
 | gotopriorityexpression | string |
 | invoke | bool |
 | labelname | string |

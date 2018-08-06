@@ -10,7 +10,6 @@ Spec for **lbvserver_responderpolicy_binding** binding - [citrix documentation p
 
 - name
 - policyname
-- bindpoint
 
 ## Operations
 
@@ -25,7 +24,6 @@ Spec for **lbvserver_responderpolicy_binding** binding - [citrix documentation p
 
 | Name | Type |
 |----|----|
-| bindpoint | REQUEST, RESPONSE |
 | gotopriorityexpression | string |
 | invoke | bool |
 | labelname | string |
