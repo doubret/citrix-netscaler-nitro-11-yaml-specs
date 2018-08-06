@@ -54,7 +54,7 @@ fields:
   icmpvsrresponse:                        (PASSIVE|ACTIVE)
   rhistate:                               (PASSIVE|ACTIVE)
   authnprofile:                           string
-  dnsprofilename:                         dnsprofile.name
+  dnsprofilename:                         dnsprofile.dnsprofilename
 update:
   - ipv46
   - ippattern

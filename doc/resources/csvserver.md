@@ -43,7 +43,7 @@ Identifier : name
 | comment | No | string |
 | dbprofilename | No | dbdbprofile.name |
 | disableprimaryondown | No | ENABLED, DISABLED |
-| dnsprofilename | No | dnsprofile.name |
+| dnsprofilename | No | dnsprofile.dnsprofilename |
 | downstateflush | No | ENABLED, DISABLED |
 | httpprofilename | No | nshttpprofile.name |
 | icmpvsrresponse | No | PASSIVE, ACTIVE |
