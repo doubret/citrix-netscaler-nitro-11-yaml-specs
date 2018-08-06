@@ -1,0 +1,15 @@
+scope:                                    videooptimization
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  action:                                 videooptimizationaction.name
+  undefaction:                            string
+  comment:                                string
+  logaction:                              string
+update:
+  - rule
+  - action
+  - undefaction
+  - comment
+  - logaction

@@ -1,0 +1,5 @@
+scope:                                    compression
+key:
+  name:                                   labelname
+fields:
+  type:                                   (REQ|RES)

@@ -1,0 +1,15 @@
+scope:                                    rewrite
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  action:                                 rewriteaction.name
+  undefaction:                            rewriteaction.name
+  comment:                                string
+  logaction:                              string
+update:
+ - rule
+ - action
+ - undefaction
+ - comment
+ - logaction

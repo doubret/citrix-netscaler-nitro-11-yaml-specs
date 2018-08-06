@@ -1,0 +1,27 @@
+scope:                                    traffic-management
+key:
+  name:                                   name
+fields:
+  apptimeout:                             double
+  sso:                                    (ON|OFF)
+  formssoaction:                          string
+  persistentcookie:                       (ON|OFF)
+  initiatelogout:                         (ON|OFF)
+  kcdaccount:                             string
+  samlssoprofile:                         string
+  forcedtimeout:                          (START|STOP|RESET)
+  forcedtimeoutval:                       double
+  userexpression:                         string
+  passwdexpression:                       string
+update:
+  - apptimeout
+  - sso
+  - formssoaction
+  - persistentcookie
+  - initiatelogout
+  - kcdaccount
+  - samlssoprofile
+  - forcedtimeout
+  - forcedtimeoutval
+  - userexpression
+  - passwdexpression

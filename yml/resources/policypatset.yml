@@ -1,0 +1,6 @@
+scope:                                    policy
+key:
+  name:                                   name
+fields:
+  indextype:                              (Auto-generated|User-defined)
+  comment:                                string

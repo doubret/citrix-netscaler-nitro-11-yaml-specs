@@ -1,0 +1,25 @@
+scope:                                    traffic-management
+key:
+  name:                                   name
+fields:
+  sesstimeout:                            double
+  defaultauthorizationaction:             (ALLOW|DENY)
+  sso:                                    (ON|OFF)
+  ssocredential:                          (PRIMARY|SECONDARY)
+  ssodomain:                              string
+  httponlycookie:                         (YES|NO)
+  kcdaccount:                             string
+  persistentcookie:                       (YES|NO)
+  persistentcookievalidity:               double
+  homepage:                               string
+update:
+  - sesstimeout
+  - defaultauthorizationaction
+  - sso
+  - ssocredential
+  - ssodomain
+  - kcdaccount
+  - httponlycookie
+  - persistentcookie
+  - persistentcookievalidity
+  - homepage

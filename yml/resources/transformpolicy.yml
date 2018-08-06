@@ -1,0 +1,13 @@
+scope:                                    transform
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  profilename:                            transformprofile.name
+  comment:                                string
+  logaction:                              string
+update:
+  - rule
+  - profilename
+  - comment
+  - logaction

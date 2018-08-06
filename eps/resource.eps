@@ -1,0 +1,45 @@
+# Resource <%= $name %>
+
+Spec for **<%= $name %>** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/<%= $resource.Scope %>/<%= $name %>/<%= $name %>/)
+
+- [Identifier](#identifier)
+- [Operations](#operations)
+- [Fields](#fields)
+
+## Identifier
+
+Identifier : <%= $resource.Key.Name %>
+<% if($resource.Key.Fields) { -%>
+Additionnal fields :
+<% foreach($field in $resource.Key.Fields) { -%>
+- <%= $field %>
+<% } -%>
+<% } -%>
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=unset` |
+
+## Fields
+
+<% if ($resource.Fields) { -%>
+| Name | Update | Type |
+|----|----|----|
+| <%= $resource.Key.Name %> | No | string |
+<% if($resource.State) { -%>
+| <%= $resource.State %> | No | ENABLED, DISABLED |
+<% } -%>
+<% foreach($field in $resource.Fields.GetEnumerator() | Sort -Property Name) { -%>
+| <%= $field.Name %> | <%= if($field -in $resource.Update) { "Yes" } else { "No" }%> | <%= ($field.Value -Replace '\(' -Replace '\)') -Replace '\|', ', ' %> |
+<% } -%>
+<% } -%>

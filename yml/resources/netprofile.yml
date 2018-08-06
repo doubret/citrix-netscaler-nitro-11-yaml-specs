@@ -1,0 +1,12 @@
+scope:                                    network
+key:
+  name:                                   name
+fields:
+  td:                                     double
+  srcip:                                  ip
+  srcippersistency:                       (ENABLED|DISABLED)
+  overridelsn:                            (ENABLED|DISABLED)
+update:
+  - srcip
+  - srcippersistency
+  - overridelsn

@@ -1,0 +1,8 @@
+scope:                                    load-balancing
+fields:
+  name:                                   lbvserver.name
+  servicename:                            service.name
+  weight:                                 double
+key:
+  - name
+  - servicename

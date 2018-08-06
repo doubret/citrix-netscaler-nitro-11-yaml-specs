@@ -1,0 +1,49 @@
+scope:                                    front-end-optimization
+key:
+  name:                                   name
+fields:
+  pageextendcache:                        bool
+  cachemaxage:                            double
+  imgshrinktoattrib:                      bool
+  imggiftopng:                            bool
+  imgtowebp:                              bool
+  imgtojpegxr:                            bool
+  imginline:                              bool
+  cssimginline:                           bool
+  jpgoptimize:                            bool
+  imglazyload:                            bool
+  cssminify:                              bool
+  cssinline:                              bool
+  csscombine:                             bool
+  convertimporttolink:                    bool
+  jsminify:                               bool
+  jsinline:                               bool
+  htmlminify:                             bool
+  cssmovetohead:                          bool
+  jsmovetoend:                            bool
+  domainsharding:                         string
+  dnsshards:                              string[]
+  clientsidemeasurements:                 bool
+update:
+  - pageextendcache
+  - cachemaxage
+  - imgshrinktoattrib
+  - imggiftopng
+  - imgtowebp
+  - imgtojpegxr
+  - imginline
+  - cssimginline
+  - jpgoptimize
+  - imglazyload
+  - cssminify
+  - cssinline
+  - csscombine
+  - convertimporttolink
+  - jsminify
+  - jsinline
+  - htmlminify
+  - cssmovetohead
+  - jsmovetoend
+  - domainsharding
+  - dnsshards
+  - clientsidemeasurements

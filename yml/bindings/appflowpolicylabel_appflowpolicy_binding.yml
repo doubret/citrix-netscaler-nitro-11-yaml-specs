@@ -1,0 +1,12 @@
+scope:                                    appflow
+fields:
+  labelname:                              appflowpolicylabel.labelname
+  policyname:                             appflowpolicy.name
+  priority:                               double
+  gotopriorityexpression:                 string
+  invoke:                                 bool
+  labeltype:                              (vserver|policylabel)
+  invoke_labelname:                       string
+key:
+  - labelname
+  - policyname

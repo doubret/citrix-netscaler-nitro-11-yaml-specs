@@ -1,0 +1,9 @@
+scope:                                    domain-name-service
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  action:                                 dnsaction64.actionname
+update:
+  - rule
+  - action

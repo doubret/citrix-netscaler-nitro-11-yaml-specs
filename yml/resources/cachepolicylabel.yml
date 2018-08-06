@@ -1,0 +1,5 @@
+scope:                                    integrated-caching
+key:
+  name:                                   labelname
+fields:
+  evaluates:                              (REQ|RES|MSSQL_REQ|MSSQL_RES|MYSQL_REQ|MYSQL_RES)

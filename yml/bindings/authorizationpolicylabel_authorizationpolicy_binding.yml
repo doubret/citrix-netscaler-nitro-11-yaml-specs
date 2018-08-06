@@ -1,0 +1,12 @@
+scope:                                    authorization
+fields:
+  labelname:                              authorizationpolicylabel.labelname
+  policyname:                             authorizationpolicy.name
+  priority:                               double
+  gotopriorityexpression:                 string
+  invoke:                                 bool
+  labeltype:                              (reqvserver, resvserver, policylabel)
+  invoke_labelname:                       string
+key:
+  - labelname
+  - policyname

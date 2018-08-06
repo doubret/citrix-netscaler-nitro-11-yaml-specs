@@ -1,0 +1,17 @@
+scope:                                    integrated-caching
+key:
+  name:                                   policyname
+fields:
+  rule:                                   string
+  storeingroup:                           cachecontentgroup.name
+  invalgroups:                            cachecontentgroup.name[]
+  invalobjects:                           cachecontentgroup.name[]
+  action:                                 (CACHE|NOCACHE|MAY_CACHE|MAY_NOCACHE|INVAL)
+  undefaction:                            (NOCACHE|RESET)
+update:
+  - rule
+  - action
+  - storeingroup
+  - invalgroups
+  - invalobjects
+  - undefaction

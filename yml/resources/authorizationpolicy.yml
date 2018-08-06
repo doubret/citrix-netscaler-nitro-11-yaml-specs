@@ -1,0 +1,9 @@
+scope:                                    authorization
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  action:                                 string
+update:
+  - rule
+  - action

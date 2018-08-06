@@ -1,0 +1,13 @@
+scope:                                    policy
+key:
+  name:                                   name
+fields:
+  value:                                  string
+  description:                            string
+  comment:                                string
+  clientsecuritymessage:                  string
+update:
+  - value
+  - description
+  - comment
+  - clientsecuritymessage

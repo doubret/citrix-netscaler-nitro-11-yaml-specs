@@ -1,0 +1,9 @@
+scope:                                    policy
+fields:
+  name:                                   policypatset.name
+  string:                                 string
+  charset:                                (ASCII|UTF_8)
+  index:                                  double
+key:
+  - name
+  - string

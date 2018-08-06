@@ -1,0 +1,15 @@
+scope:                                    ca
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  action:                                 caaction.name
+  undefaction:                            string
+  comment:                                string
+  logaction:                              string
+update:
+  - rule
+  - action
+  - comment
+  - logaction
+  - undefaction

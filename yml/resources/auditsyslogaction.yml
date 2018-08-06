@@ -1,0 +1,48 @@
+scope:                                    audit
+key:
+  name:                                   name
+fields:
+  serverip:                               ip
+  serverdomainname:                       string
+  domainresolveretry:                     int
+  serverport:                             int
+  loglevel:                               (ALL|EMERGENCY|ALERT|CRITICAL|ERROR|WARNING|NOTICE|INFORMATIONAL|DEBUG|NONE)[]
+  dateformat:                             (MMDDYYYY|DDMMYYYY|YYYYMMDD)
+  logfacility:                            (LOCAL0|LOCAL1|LOCAL2|LOCAL3|LOCAL4|LOCAL5|LOCAL6|LOCAL7)
+  tcp:                                    (NONE|ALL)
+  acl:                                    (ENABLED|DISABLED)
+  timezone:                               (GMT_TIME|LOCAL_TIME)
+  userdefinedauditlog:                    (YES|NO)
+  appflowexport:                          (ENABLED|DISABLED)
+  lsn:                                    (ENABLED|DISABLED)
+  alg:                                    (ENABLED|DISABLED)
+  subscriberlog:                          (ENABLED|DISABLED)
+  sslinterception:                        (ENABLED|DISABLED)
+  lbvservername:                          lbvserver.name
+  transport:                              (TCP|UDP)
+  tcpprofilename:                         nstcpprofile.name
+  maxlogdatasizetohold:                   double
+  dns:                                    (ENABLED|DISABLED)
+  netprofile:                             netprofile.name
+update:
+  - serverip
+  - serverdomainname
+  - domainresolveretry
+  - serverport
+  - loglevel
+  - dateformat
+  - logfacility
+  - tcp
+  - acl
+  - timezone
+  - userdefinedauditlog
+  - appflowexport
+  - lsn
+  - alg
+  - subscriberlog
+  - sslinterception
+  - lbvservername
+  - tcpprofilename
+  - maxlogdatasizetohold
+  - dns
+  - netprofile

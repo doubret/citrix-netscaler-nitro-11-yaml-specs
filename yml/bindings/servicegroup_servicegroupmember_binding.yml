@@ -1,0 +1,10 @@
+scope:                                    basic
+fields:
+  servicegroupname:                       string
+  servername:                             string
+  port:                                   int
+  weight:                                 double
+key:
+  - servicegroupname
+  - servername
+  - port

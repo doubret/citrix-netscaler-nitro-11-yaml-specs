@@ -1,0 +1,19 @@
+scope:                                    sure-connect
+key:
+  name:                                   name
+fields:
+  url:                                    string
+  rule:                                   string
+  delay:                                  double
+  maxconn:                                double
+  action:                                 string
+  altcontentsvcname:                      string
+  altcontentpath:                         (ACS|NS|NOACTION)
+update:
+  - url
+  - rule
+  - delay
+  - maxconn
+  - action
+  - altcontentsvcname
+  - altcontentpath

@@ -1,0 +1,27 @@
+scope:                                    appqoe
+key:
+  name:                                   name
+fields:
+  priority:                               (HIGH|MEDIUM|LOW|LOWEST)
+  respondwith:                            (ACS|NS)
+  customfile:                             string
+  altcontentsvcname:                      service.name
+  altcontentpath:                         string
+  polqdepth:                              double
+  priqdepth:                              double
+  maxconn:                                double
+  delay:                                  double
+  dostrigexpression:                      string
+  dosaction:                              (SimpleResponse|HICResponse)
+  tcpprofile:                             nstcpprofile.name
+update:
+  - priority
+  - altcontentsvcname
+  - altcontentpath
+  - polqdepth
+  - priqdepth
+  - maxconn
+  - delay
+  - dostrigexpression
+  - dosaction
+  - tcpprofile

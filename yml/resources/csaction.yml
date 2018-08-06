@@ -1,0 +1,13 @@
+scope:                                    content-switching
+key:
+  name:                                   name
+fields:
+  targetvserver:                          string
+  targetvserverexpr:                      string
+  comment:                                string
+  targetlbvserver:                        lbvserver.name
+update:
+  - targetlbvserver
+  - targetvserver
+  - targetvserverexpr
+  - comment

@@ -1,0 +1,9 @@
+scope:                                    load-balancing
+fields:
+  monitorname:                            lbmonitor.monitorname
+  metric:                                 string
+  metricthreshold:                        double
+  metricweight:                           double
+key:
+  - monitorname
+  - metric

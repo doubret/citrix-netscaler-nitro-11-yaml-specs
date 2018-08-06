@@ -1,0 +1,32 @@
+# Binding <%= $name %>
+
+Spec for **<%= $name %>** binding - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/<%= $binding.Scope %>/<%= $name %>/<%= $name %>/)
+
+- [Identifier](#identifier)
+- [Operations](#operations)
+- [Fields](#fields)
+
+## Identifier
+
+<% if($binding.Key) { -%>
+<% foreach($field in $binding.Key) { -%>
+- <%= $field %>
+<% } -%>
+<% } -%>
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>/<name>` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>` |
+
+## Fields
+
+| Name | Type |
+|----|----|
+<% foreach($field in $binding.Fields.GetEnumerator() | Sort -Property Name) { -%>
+| <%= $field.Name %> | <%= ($field.Value -Replace '\(' -Replace '\)') -Replace '\|', ', ' %> |
+<% } -%>

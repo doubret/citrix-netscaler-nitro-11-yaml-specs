@@ -1,0 +1,10 @@
+scope:                                    load-balancing
+fields:
+  monitorname:                            lbmonitor.monitorname
+  certkeyname:                            string
+  ca:                                     bool
+  crlcheck:                               string
+  ocspcheck:                              string
+key:
+  - monitorname
+  - certkeyname

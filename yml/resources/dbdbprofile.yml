@@ -1,0 +1,15 @@
+scope:                                    db
+key:
+  name:                                   name
+fields:
+  interpretquery:                         (YES|NO)
+  stickiness:                             (YES|NO)
+  kcdaccount:                             string
+  conmultiplex:                           (ENABLED|DISABLED)
+  enablecachingconmuxoff:                 (ENABLED|DISABLED)
+update:
+  - interpretquery
+  - stickiness
+  - kcdaccount
+  - conmultiplex
+  - enablecachingconmuxoff

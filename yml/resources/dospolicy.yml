@@ -1,0 +1,9 @@
+scope:                                    http-dos-protection
+key:
+  name:                                   name
+fields:
+  qdepth:                                 double
+  cltdetectrate:                          double
+update:
+  - qdepth
+  - cltdetectrate

@@ -1,0 +1,23 @@
+scope:                                    appflow
+key:
+  name:                                   name
+fields:
+  metricslog:                             bool
+  comment:                                string
+  clientsidemeasurements:                 (ENABLED|DISABLED)
+  pagetracking:                           (ENABLED|DISABLED)
+  webinsight:                             (ENABLED|DISABLED)
+  securityinsight:                        (ENABLED|DISABLED)
+  videoanalytics:                         (ENABLED|DISABLED)
+  distributionalgorithm:                  (ENABLED|DISABLED)
+  transactionlog:                         (ANOMALOUS|NONE|ALL)
+  collectors:                             appflowcollector.name[]
+update:
+  - collectors
+  - clientsidemeasurements
+  - comment
+  - pagetracking
+  - webinsight
+  - securityinsight
+  - videoanalytics
+  - distributionalgorithm

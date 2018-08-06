@@ -1,0 +1,21 @@
+scope:                                    domain-name-service
+key:
+  name:                                   dnsprofilename
+fields:
+  dnsquerylogging:                        (ENABLED|DISABLED)
+  dnsanswerseclogging:                    (ENABLED|DISABLED)
+  dnsextendedlogging:                     (ENABLED|DISABLED)
+  dnserrorlogging:                        (ENABLED|DISABLED)
+  cacherecords:                           (ENABLED|DISABLED)
+  cachenegativeresponses:                 (ENABLED|DISABLED)
+  dropmultiqueryrequest:                  (ENABLED|DISABLED)
+  cacheecsresponses:                      (ENABLED|DISABLED)
+update:
+  - dnsquerylogging
+  - dnsanswerseclogging
+  - dnsextendedlogging
+  - dnserrorlogging
+  - cacherecords
+  - cachenegativeresponses
+  - dropmultiqueryrequest
+  - cacheecsresponses

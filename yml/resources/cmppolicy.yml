@@ -1,0 +1,9 @@
+scope:                                    compression
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  resaction:                              cmpaction.name
+update:
+  - rule
+  - resaction

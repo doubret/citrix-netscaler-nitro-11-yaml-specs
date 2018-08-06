@@ -1,0 +1,5 @@
+scope:                                    spillover
+key:
+  name:                                   name
+fields:
+  action:                                 (SPILLOVER)

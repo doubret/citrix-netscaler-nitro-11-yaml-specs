@@ -1,0 +1,7 @@
+scope:                                    policy
+key:
+  name:                                   name
+fields:
+  comment:                                string
+update:
+  - comment

@@ -1,0 +1,10 @@
+scope:                                    load-balancing
+key:
+  name:                                   wlmname
+fields:
+  ipaddress:                              ip
+  port:                                   int
+  lbuid:                                  string
+  katimeout:                              double
+update:
+  - katimeout

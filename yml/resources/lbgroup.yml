@@ -1,0 +1,25 @@
+scope:                                    load-balancing
+key:
+  name:                                   name
+fields:
+  backuppersistencetimeout:               double
+  persistmask:                            string
+  cookiename:                             string
+  v6persistmasklen:                       double
+  cookiedomain:                           string
+  timeout:                                double
+  rule:                                   string
+  persistencetype:                        (SOURCEIP|COOKIEINSERT|RULE|NONE)
+  persistencebackup:                      (SOURCEIP|NONE)
+  usevserverpersistency:                  (ENABLED|DISABLED)
+update:
+  - persistencetype
+  - persistencebackup
+  - backuppersistencetimeout
+  - persistmask
+  - cookiename
+  - v6persistmasklen
+  - cookiedomain
+  - timeout
+  - rule
+  - usevserverpersistency

@@ -1,0 +1,11 @@
+scope:                                    spillover
+key:
+  name:                                   name
+fields:
+  rule:                                   string
+  action:                                 spilloveraction.name
+  comment:                                string
+update:
+  - rule
+  - action
+  - comment
