@@ -28,8 +28,8 @@ Spec for **spilloveraction** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | SPILLOVER |
-| name | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|SPILLOVER|
+|name|No|No|string|
 

@@ -28,11 +28,11 @@ Spec for **cmpaction** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| addvaryheader | No | GLOBAL, DISABLED, ENABLED |
-| cmptype | No | compress, gzip, deflate, nocompress |
-| deltatype | No | PERURL, PERPOLICY |
-| name | No | string |
-| varyheadervalue | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|addvaryheader|No|No|GLOBAL, DISABLED, ENABLED|
+|cmptype|No|No|compress, gzip, deflate, nocompress|
+|deltatype|No|No|PERURL, PERPOLICY|
+|name|No|No|string|
+|varyheadervalue|No|No|string|
 

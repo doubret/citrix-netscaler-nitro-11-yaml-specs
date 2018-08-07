@@ -28,12 +28,12 @@ Spec for **dbdbprofile** resource - [citrix documentation page](https://develope
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| conmultiplex | No | ENABLED, DISABLED |
-| enablecachingconmuxoff | No | ENABLED, DISABLED |
-| interpretquery | No | YES, NO |
-| kcdaccount | No | string |
-| name | No | string |
-| stickiness | No | YES, NO |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|conmultiplex|No|No|ENABLED, DISABLED|
+|enablecachingconmuxoff|No|No|ENABLED, DISABLED|
+|interpretquery|No|No|YES, NO|
+|kcdaccount|No|No|string|
+|name|No|No|string|
+|stickiness|No|No|YES, NO|
 

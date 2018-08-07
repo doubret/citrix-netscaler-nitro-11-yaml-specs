@@ -28,13 +28,15 @@ Spec for **appflowaction** resource - [citrix documentation page](https://develo
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| clientsidemeasurements | No | ENABLED, DISABLED |
-| collectors | No | appflowcollector.name[] |
-| comment | No | string |
-| name | No | string |
-| pagetracking | No | ENABLED, DISABLED |
-| securityinsight | No | ENABLED, DISABLED |
-| webinsight | No | ENABLED, DISABLED |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|clientsidemeasurements|No|No|ENABLED, DISABLED|
+|collectors|Yes|No
+|[appflowcollector.name](/doc/resources/appflowcollector.md)
+|
+|comment|No|No|string|
+|name|No|No|string|
+|pagetracking|No|No|ENABLED, DISABLED|
+|securityinsight|No|No|ENABLED, DISABLED|
+|webinsight|No|No|ENABLED, DISABLED|
 

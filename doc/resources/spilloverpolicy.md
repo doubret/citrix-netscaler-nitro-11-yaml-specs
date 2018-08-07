@@ -28,10 +28,12 @@ Spec for **spilloverpolicy** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | spilloveraction.name |
-| comment | No | string |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[spilloveraction.name](/doc/resources/spilloveraction.md)
+|
+|comment|No|No|string|
+|name|No|No|string|
+|rule|No|No|string|
 

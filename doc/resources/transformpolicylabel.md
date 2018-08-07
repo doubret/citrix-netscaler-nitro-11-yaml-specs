@@ -28,8 +28,8 @@ Spec for **transformpolicylabel** resource - [citrix documentation page](https:/
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| labelname | No | string |
-| policylabeltype | No | http_req |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|labelname|No|No|string|
+|policylabeltype|No|No|http_req|
 

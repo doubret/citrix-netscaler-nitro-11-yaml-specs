@@ -28,39 +28,39 @@ Spec for **nshttpprofile** resource - [citrix documentation page](https://develo
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| adpttimeout | No | ENABLED, DISABLED |
-| altsvc | No | ENABLED, DISABLED |
-| apdexcltresptimethreshold | No | double |
-| clientiphdrexpr | No | string |
-| cmponpush | No | ENABLED, DISABLED |
-| conmultiplex | No | ENABLED, DISABLED |
-| dropextracrlf | No | ENABLED, DISABLED |
-| dropextradata | No | ENABLED, DISABLED |
-| dropinvalreqs | No | ENABLED, DISABLED |
-| http2 | No | ENABLED, DISABLED |
-| http2direct | No | ENABLED, DISABLED |
-| http2headertablesize | No | double |
-| http2initialwindowsize | No | double |
-| http2maxconcurrentstreams | No | double |
-| http2maxframesize | No | double |
-| http2maxheaderlistsize | No | double |
-| http2minseverconn | No | double |
-| incomphdrdelay | No | double |
-| markconnreqinval | No | ENABLED, DISABLED |
-| markhttp09inval | No | ENABLED, DISABLED |
-| maxheaderlen | No | double |
-| maxreq | No | double |
-| maxreusepool | No | double |
-| minreusepool | No | double |
-| name | No | string |
-| persistentetag | No | ENABLED, DISABLED |
-| reqtimeout | No | double |
-| reqtimeoutaction | No | string |
-| reusepooltimeout | No | double |
-| rtsptunnel | No | ENABLED, DISABLED |
-| spdy | No | DISABLED, ENABLED, V2, V3 |
-| weblog | No | ENABLED, DISABLED |
-| websocket | No | ENABLED, DISABLED |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|adpttimeout|No|No|ENABLED, DISABLED|
+|altsvc|No|No|ENABLED, DISABLED|
+|apdexcltresptimethreshold|No|No|double|
+|clientiphdrexpr|No|No|string|
+|cmponpush|No|No|ENABLED, DISABLED|
+|conmultiplex|No|No|ENABLED, DISABLED|
+|dropextracrlf|No|No|ENABLED, DISABLED|
+|dropextradata|No|No|ENABLED, DISABLED|
+|dropinvalreqs|No|No|ENABLED, DISABLED|
+|http2|No|No|ENABLED, DISABLED|
+|http2direct|No|No|ENABLED, DISABLED|
+|http2headertablesize|No|No|double|
+|http2initialwindowsize|No|No|double|
+|http2maxconcurrentstreams|No|No|double|
+|http2maxframesize|No|No|double|
+|http2maxheaderlistsize|No|No|double|
+|http2minseverconn|No|No|double|
+|incomphdrdelay|No|No|double|
+|markconnreqinval|No|No|ENABLED, DISABLED|
+|markhttp09inval|No|No|ENABLED, DISABLED|
+|maxheaderlen|No|No|double|
+|maxreq|No|No|double|
+|maxreusepool|No|No|double|
+|minreusepool|No|No|double|
+|name|No|No|string|
+|persistentetag|No|No|ENABLED, DISABLED|
+|reqtimeout|No|No|double|
+|reqtimeoutaction|No|No|string|
+|reusepooltimeout|No|No|double|
+|rtsptunnel|No|No|ENABLED, DISABLED|
+|spdy|No|No|DISABLED, ENABLED, V2, V3|
+|weblog|No|No|ENABLED, DISABLED|
+|websocket|No|No|ENABLED, DISABLED|
 

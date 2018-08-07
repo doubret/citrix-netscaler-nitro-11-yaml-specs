@@ -28,7 +28,7 @@ Spec for **authorizationpolicylabel** resource - [citrix documentation page](htt
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| labelname | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|labelname|No|No|string|
 

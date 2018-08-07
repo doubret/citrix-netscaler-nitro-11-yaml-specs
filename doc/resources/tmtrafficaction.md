@@ -28,18 +28,18 @@ Spec for **tmtrafficaction** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| apptimeout | No | double |
-| forcedtimeout | No | START, STOP, RESET |
-| forcedtimeoutval | No | double |
-| formssoaction | No | string |
-| initiatelogout | No | ON, OFF |
-| kcdaccount | No | string |
-| name | No | string |
-| passwdexpression | No | string |
-| persistentcookie | No | ON, OFF |
-| samlssoprofile | No | string |
-| sso | No | ON, OFF |
-| userexpression | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|apptimeout|No|No|double|
+|forcedtimeout|No|No|START, STOP, RESET|
+|forcedtimeoutval|No|No|double|
+|formssoaction|No|No|string|
+|initiatelogout|No|No|ON, OFF|
+|kcdaccount|No|No|string|
+|name|No|No|string|
+|passwdexpression|No|No|string|
+|persistentcookie|No|No|ON, OFF|
+|samlssoprofile|No|No|string|
+|sso|No|No|ON, OFF|
+|userexpression|No|No|string|
 

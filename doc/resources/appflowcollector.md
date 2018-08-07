@@ -28,10 +28,12 @@ Spec for **appflowcollector** resource - [citrix documentation page](https://dev
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| ipaddress | No | ip |
-| name | No | string |
-| netprofile | No | netprofile.name |
-| port | No | int |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|ipaddress|No|No|ip|
+|name|No|No|string|
+|netprofile|No|No
+|[netprofile.name](/doc/resources/netprofile.md)
+|
+|port|No|No|int|
 

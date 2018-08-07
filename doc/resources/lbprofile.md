@@ -28,13 +28,13 @@ Spec for **lbprofile** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| cookiepassphrase | No | string |
-| dbslb | No | ENABLED, DISABLED |
-| httponlycookieflag | No | ENABLED, DISABLED |
-| lbprofilename | No | string |
-| processlocal | No | ENABLED, DISABLED |
-| useencryptedpersistencecookie | No | ENABLED, DISABLED |
-| usesecuredpersistencecookie | No | ENABLED, DISABLED |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|cookiepassphrase|No|No|string|
+|dbslb|No|No|ENABLED, DISABLED|
+|httponlycookieflag|No|No|ENABLED, DISABLED|
+|lbprofilename|No|No|string|
+|processlocal|No|No|ENABLED, DISABLED|
+|useencryptedpersistencecookie|No|No|ENABLED, DISABLED|
+|usesecuredpersistencecookie|No|No|ENABLED, DISABLED|
 

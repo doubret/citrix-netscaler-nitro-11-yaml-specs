@@ -28,12 +28,14 @@ Spec for **filteraction** resource - [citrix documentation page](https://develop
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| name | No | string |
-| page | No | string |
-| qual | No | reset, add, corrupt, forward, errorcode, drop |
-| respcode | No | double |
-| servicename | No | service.name |
-| value | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|name|No|No|string|
+|page|No|No|string|
+|qual|No|No|reset, add, corrupt, forward, errorcode, drop|
+|respcode|No|No|double|
+|servicename|No|No
+|[service.name](/doc/resources/service.md)
+|
+|value|No|No|string|
 

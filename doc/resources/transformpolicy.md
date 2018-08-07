@@ -28,11 +28,13 @@ Spec for **transformpolicy** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| logaction | No | string |
-| name | No | string |
-| profilename | No | transformprofile.name |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|logaction|No|No|string|
+|name|No|No|string|
+|profilename|No|No
+|[transformprofile.name](/doc/resources/transformprofile.md)
+|
+|rule|No|No|string|
 

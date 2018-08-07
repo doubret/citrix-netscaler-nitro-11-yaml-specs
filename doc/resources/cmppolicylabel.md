@@ -28,8 +28,8 @@ Spec for **cmppolicylabel** resource - [citrix documentation page](https://devel
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| labelname | No | string |
-| type | No | REQ, RES |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|labelname|No|No|string|
+|type|No|No|REQ, RES|
 

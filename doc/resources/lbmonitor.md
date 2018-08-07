@@ -29,98 +29,98 @@ Spec for **lbmonitor** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| state | No | ENABLED, DISABLED |
-| action | No | NONE, LOG, DOWN |
-| alertretries | No | int |
-| application | No | string |
-| attribute | No | string |
-| basedn | No | string |
-| binddn | No | string |
-| customheaders | No | string |
-| database | No | string |
-| destip | No | ip |
-| destport | No | int |
-| deviation | No | double |
-| dispatcherip | No | ip |
-| dispatcherport | No | int |
-| domain | No | string |
-| downtime | No | int |
-| evalrule | No | string |
-| failureretries | No | int |
-| filename | No | string |
-| filter | No | string |
-| firmwarerevision | No | double |
-| group | No | string |
-| hostipaddress | No | string |
-| hostname | No | string |
-| httprequest | No | string |
-| inbandsecurityid | No | string |
-| interval | No | int |
-| iptunnel | No | string |
-| kcdaccount | No | string |
-| lasversion | No | string |
-| logonpointname | No | string |
-| lrtm | No | string |
-| maxforwards | No | double |
-| metrictable | No | string |
-| monitorname | No | string |
-| mssqlprotocolversion | No | string |
-| netprofile | No | string |
-| oraclesid | No | string |
-| originhost | No | string |
-| originrealm | No | string |
-| password | No | string |
-| productname | No | string |
-| query | No | string |
-| querytype | No | string |
-| radaccountsession | No | string |
-| radaccounttype | No | double |
-| radapn | No | string |
-| radframedip | No | ip |
-| radkey | No | string |
-| radmsisdn | No | string |
-| radnasid | No | string |
-| radnasip | No | ip |
-| recv | No | string |
-| resptimeout | No | int |
-| resptimeoutthresh | No | double |
-| retries | No | int |
-| reverse | No | string |
-| rtsprequest | No | string |
-| scriptargs | No | string |
-| scriptname | No | string |
-| secondarypassword | No | string |
-| secure | No | string |
-| send | No | string |
-| sipmethod | No | string |
-| sipreguri | No | string |
-| sipuri | No | string |
-| sitepath | No | string |
-| snmpcommunity | No | string |
-| snmpoid | No | string |
-| snmpthreshold | No | string |
-| snmpversion | No | string |
-| sqlquery | No | string |
-| sslprofile | No | string |
-| storedb | No | string |
-| storefrontacctservice | No | string |
-| storefrontcheckbackendservices | No | string |
-| storename | No | string |
-| successretries | No | int |
-| tos | No | string |
-| tosid | No | double |
-| transparent | No | string |
-| trofscode | No | double |
-| trofsstring | No | string |
-| type | No | PING, TCP, HTTP, TCP-ECV, HTTP-ECV, UDP-ECV, DNS, FTP, LDNS-PING, LDNS-TCP, LDNS-DNS, RADIUS, USER, HTTP-INLINE, SIP-UDP, SIP-TCP, LOAD, FTP-EXTENDED, SMTP, SNMP, NNTP, MYSQL, MYSQL-ECV, MSSQL-ECV, ORACLE-ECV, LDAP, POP3, CITRIX-XML-SERVICE, CITRIX-WEB-INTERFACE, DNS-TCP, RTSP, ARP, CITRIX-AG, CITRIX-AAC-LOGINPAGE, CITRIX-AAC-LAS, CITRIX-XD-DDC, ND6, CITRIX-WI-EXTENDED, DIAMETER, RADIUS_ACCOUNTING, STOREFRONT, APPC, SMPP, CITRIX-XNC-ECV, CITRIX-XDM, CITRIX-STA-SERVICE, CITRIX-STA-SERVICE-NHOP |
-| units1 | No | string |
-| units2 | No | string |
-| units3 | No | string |
-| units4 | No | string |
-| username | No | string |
-| validatecred | No | string |
-| vendorid | No | double |
-| vendorspecificvendorid | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+| state | No | No | ENABLED, DISABLED |
+|action|No|No|NONE, LOG, DOWN|
+|alertretries|No|No|int|
+|application|No|No|string|
+|attribute|No|No|string|
+|basedn|No|No|string|
+|binddn|No|No|string|
+|customheaders|No|No|string|
+|database|No|No|string|
+|destip|No|No|ip|
+|destport|No|No|int|
+|deviation|No|No|double|
+|dispatcherip|No|No|ip|
+|dispatcherport|No|No|int|
+|domain|No|No|string|
+|downtime|No|No|int|
+|evalrule|No|No|string|
+|failureretries|No|No|int|
+|filename|No|No|string|
+|filter|No|No|string|
+|firmwarerevision|No|No|double|
+|group|No|No|string|
+|hostipaddress|No|No|string|
+|hostname|No|No|string|
+|httprequest|No|No|string|
+|inbandsecurityid|No|No|string|
+|interval|No|No|int|
+|iptunnel|No|No|string|
+|kcdaccount|No|No|string|
+|lasversion|No|No|string|
+|logonpointname|No|No|string|
+|lrtm|No|No|string|
+|maxforwards|No|No|double|
+|metrictable|No|No|string|
+|monitorname|No|No|string|
+|mssqlprotocolversion|No|No|string|
+|netprofile|No|No|string|
+|oraclesid|No|No|string|
+|originhost|No|No|string|
+|originrealm|No|No|string|
+|password|No|No|string|
+|productname|No|No|string|
+|query|No|No|string|
+|querytype|No|No|string|
+|radaccountsession|No|No|string|
+|radaccounttype|No|No|double|
+|radapn|No|No|string|
+|radframedip|No|No|ip|
+|radkey|No|No|string|
+|radmsisdn|No|No|string|
+|radnasid|No|No|string|
+|radnasip|No|No|ip|
+|recv|No|No|string|
+|resptimeout|No|No|int|
+|resptimeoutthresh|No|No|double|
+|retries|No|No|int|
+|reverse|No|No|string|
+|rtsprequest|No|No|string|
+|scriptargs|No|No|string|
+|scriptname|No|No|string|
+|secondarypassword|No|No|string|
+|secure|No|No|string|
+|send|No|No|string|
+|sipmethod|No|No|string|
+|sipreguri|No|No|string|
+|sipuri|No|No|string|
+|sitepath|No|No|string|
+|snmpcommunity|No|No|string|
+|snmpoid|No|No|string|
+|snmpthreshold|No|No|string|
+|snmpversion|No|No|string|
+|sqlquery|No|No|string|
+|sslprofile|No|No|string|
+|storedb|No|No|string|
+|storefrontacctservice|No|No|string|
+|storefrontcheckbackendservices|No|No|string|
+|storename|No|No|string|
+|successretries|No|No|int|
+|tos|No|No|string|
+|tosid|No|No|double|
+|transparent|No|No|string|
+|trofscode|No|No|double|
+|trofsstring|No|No|string|
+|type|No|No|PING, TCP, HTTP, TCP-ECV, HTTP-ECV, UDP-ECV, DNS, FTP, LDNS-PING, LDNS-TCP, LDNS-DNS, RADIUS, USER, HTTP-INLINE, SIP-UDP, SIP-TCP, LOAD, FTP-EXTENDED, SMTP, SNMP, NNTP, MYSQL, MYSQL-ECV, MSSQL-ECV, ORACLE-ECV, LDAP, POP3, CITRIX-XML-SERVICE, CITRIX-WEB-INTERFACE, DNS-TCP, RTSP, ARP, CITRIX-AG, CITRIX-AAC-LOGINPAGE, CITRIX-AAC-LAS, CITRIX-XD-DDC, ND6, CITRIX-WI-EXTENDED, DIAMETER, RADIUS_ACCOUNTING, STOREFRONT, APPC, SMPP, CITRIX-XNC-ECV, CITRIX-XDM, CITRIX-STA-SERVICE, CITRIX-STA-SERVICE-NHOP|
+|units1|No|No|string|
+|units2|No|No|string|
+|units3|No|No|string|
+|units4|No|No|string|
+|username|No|No|string|
+|validatecred|No|No|string|
+|vendorid|No|No|double|
+|vendorspecificvendorid|No|No|double|
 

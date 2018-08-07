@@ -28,12 +28,14 @@ Spec for **cspolicy** resource - [citrix documentation page](https://developer-d
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | csaction.name |
-| domain | No | string |
-| logaction | No | string |
-| policyname | No | string |
-| rule | No | string |
-| url | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[csaction.name](/doc/resources/csaction.md)
+|
+|domain|No|No|string|
+|logaction|No|No|string|
+|policyname|No|No|string|
+|rule|No|No|string|
+|url|No|No|string|
 

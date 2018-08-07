@@ -28,10 +28,10 @@ Spec for **dnsaction64** resource - [citrix documentation page](https://develope
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| actionname | No | string |
-| excluderule | No | string |
-| mappedrule | No | string |
-| prefix | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|actionname|No|No|string|
+|excluderule|No|No|string|
+|mappedrule|No|No|string|
+|prefix|No|No|string|
 

@@ -28,13 +28,19 @@ Spec for **cachepolicy** resource - [citrix documentation page](https://develope
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | CACHE, NOCACHE, MAY_CACHE, MAY_NOCACHE, INVAL |
-| invalgroups | No | cachecontentgroup.name[] |
-| invalobjects | No | cachecontentgroup.name[] |
-| policyname | No | string |
-| rule | No | string |
-| storeingroup | No | cachecontentgroup.name |
-| undefaction | No | NOCACHE, RESET |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|CACHE, NOCACHE, MAY_CACHE, MAY_NOCACHE, INVAL|
+|invalgroups|Yes|No
+|[cachecontentgroup.name](/doc/resources/cachecontentgroup.md)
+|
+|invalobjects|Yes|No
+|[cachecontentgroup.name](/doc/resources/cachecontentgroup.md)
+|
+|policyname|No|No|string|
+|rule|No|No|string|
+|storeingroup|No|No
+|[cachecontentgroup.name](/doc/resources/cachecontentgroup.md)
+|
+|undefaction|No|No|NOCACHE, RESET|
 

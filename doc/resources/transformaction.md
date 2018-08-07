@@ -28,17 +28,19 @@ Spec for **transformaction** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| cookiedomainfrom | No | string |
-| cookiedomaininto | No | string |
-| name | No | string |
-| priority | No | double |
-| profilename | No | transformprofile.name |
-| requrlfrom | No | string |
-| requrlinto | No | string |
-| resurlfrom | No | string |
-| resurlinto | No | string |
-| state | No | ENABLED, DISABLED |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|cookiedomainfrom|No|No|string|
+|cookiedomaininto|No|No|string|
+|name|No|No|string|
+|priority|No|No|double|
+|profilename|No|No
+|[transformprofile.name](/doc/resources/transformprofile.md)
+|
+|requrlfrom|No|No|string|
+|requrlinto|No|No|string|
+|resurlfrom|No|No|string|
+|resurlinto|No|No|string|
+|state|No|No|ENABLED, DISABLED|
 

@@ -28,9 +28,11 @@ Spec for **tmtrafficpolicy** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | tmtrafficaction.name |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[tmtrafficaction.name](/doc/resources/tmtrafficaction.md)
+|
+|name|No|No|string|
+|rule|No|No|string|
 

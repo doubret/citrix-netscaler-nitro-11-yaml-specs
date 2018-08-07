@@ -28,12 +28,16 @@ Spec for **rewritepolicy** resource - [citrix documentation page](https://develo
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | rewriteaction.name |
-| comment | No | string |
-| logaction | No | string |
-| name | No | string |
-| rule | No | string |
-| undefaction | No | rewriteaction.name |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[rewriteaction.name](/doc/resources/rewriteaction.md)
+|
+|comment|No|No|string|
+|logaction|No|No|string|
+|name|No|No|string|
+|rule|No|No|string|
+|undefaction|No|No
+|[rewriteaction.name](/doc/resources/rewriteaction.md)
+|
 

@@ -28,11 +28,11 @@ Spec for **appfwpolicy** resource - [citrix documentation page](https://develope
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| logaction | No | string |
-| name | No | string |
-| profilename | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|logaction|No|No|string|
+|name|No|No|string|
+|profilename|No|No|string|
+|rule|No|No|string|
 

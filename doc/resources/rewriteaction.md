@@ -28,15 +28,15 @@ Spec for **rewriteaction** resource - [citrix documentation page](https://develo
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| bypasssafetycheck | No | YES, NO |
-| comment | No | string |
-| name | No | string |
-| pattern | No | string |
-| refinesearch | No | string |
-| search | No | string |
-| stringbuilderexpr | No | string |
-| target | No | string |
-| type | No | noop, delete, insert_http_header, delete_http_header, corrupt_http_header, insert_before, insert_after, replace, replace_http_res, delete_all, replace_all, insert_before_all, insert_after_all, clientless_vpn_encode, clientless_vpn_encode_all, clientless_vpn_decode, clientless_vpn_decode_all, insert_sip_header, delete_sip_header, corrupt_sip_header, replace_sip_res, replace_diameter_header_field, replace_dns_header_field, replace_dns_answer_section |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|bypasssafetycheck|No|No|YES, NO|
+|comment|No|No|string|
+|name|No|No|string|
+|pattern|No|No|string|
+|refinesearch|No|No|string|
+|search|No|No|string|
+|stringbuilderexpr|No|No|string|
+|target|No|No|string|
+|type|No|No|noop, delete, insert_http_header, delete_http_header, corrupt_http_header, insert_before, insert_after, replace, replace_http_res, delete_all, replace_all, insert_before_all, insert_after_all, clientless_vpn_encode, clientless_vpn_encode_all, clientless_vpn_decode, clientless_vpn_decode_all, insert_sip_header, delete_sip_header, corrupt_sip_header, replace_sip_res, replace_diameter_header_field, replace_dns_header_field, replace_dns_answer_section|
 

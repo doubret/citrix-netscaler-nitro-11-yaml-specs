@@ -28,45 +28,45 @@ Spec for **cachecontentgroup** resource - [citrix documentation page](https://de
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| absexpiry | No | string[] |
-| absexpirygmt | No | string[] |
-| alwaysevalpolicies | No | YES, NO |
-| cachecontrol | No | string |
-| expireatlastbyte | No | YES, NO |
-| flashcache | No | YES, NO |
-| heurexpiryparam | No | double |
-| hitparams | No | string[] |
-| hitselector | No | string |
-| ignoreparamvaluecase | No | YES, NO |
-| ignorereloadreq | No | YES, NO |
-| ignorereqcachinghdrs | No | YES, NO |
-| insertage | No | YES, NO |
-| insertetag | No | YES, NO |
-| insertvia | No | YES, NO |
-| invalparams | No | string[] |
-| invalrestrictedtohost | No | YES, NO |
-| invalselector | No | string |
-| lazydnsresolve | No | YES, NO |
-| matchcookies | No | YES, NO |
-| maxressize | No | double |
-| memlimit | No | double |
-| minhits | No | int |
-| minressize | No | double |
-| name | No | string |
-| persistha | No | YES, NO |
-| pinned | No | YES, NO |
-| polleverytime | No | YES, NO |
-| prefetch | No | YES, NO |
-| prefetchmaxpending | No | double |
-| prefetchperiod | No | double |
-| prefetchperiodmillisec | No | double |
-| quickabortsize | No | double |
-| relexpiry | No | double |
-| relexpirymillisec | No | double |
-| removecookies | No | YES, NO |
-| type | No | HTTP, MYSQL, MSSQL |
-| weaknegrelexpiry | No | double |
-| weakposrelexpiry | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|absexpiry|Yes|No|string|
+|absexpirygmt|Yes|No|string|
+|alwaysevalpolicies|No|No|YES, NO|
+|cachecontrol|No|No|string|
+|expireatlastbyte|No|No|YES, NO|
+|flashcache|No|No|YES, NO|
+|heurexpiryparam|No|No|double|
+|hitparams|Yes|No|string|
+|hitselector|No|No|string|
+|ignoreparamvaluecase|No|No|YES, NO|
+|ignorereloadreq|No|No|YES, NO|
+|ignorereqcachinghdrs|No|No|YES, NO|
+|insertage|No|No|YES, NO|
+|insertetag|No|No|YES, NO|
+|insertvia|No|No|YES, NO|
+|invalparams|Yes|No|string|
+|invalrestrictedtohost|No|No|YES, NO|
+|invalselector|No|No|string|
+|lazydnsresolve|No|No|YES, NO|
+|matchcookies|No|No|YES, NO|
+|maxressize|No|No|double|
+|memlimit|No|No|double|
+|minhits|No|No|int|
+|minressize|No|No|double|
+|name|No|No|string|
+|persistha|No|No|YES, NO|
+|pinned|No|No|YES, NO|
+|polleverytime|No|No|YES, NO|
+|prefetch|No|No|YES, NO|
+|prefetchmaxpending|No|No|double|
+|prefetchperiod|No|No|double|
+|prefetchperiodmillisec|No|No|double|
+|quickabortsize|No|No|double|
+|relexpiry|No|No|double|
+|relexpirymillisec|No|No|double|
+|removecookies|No|No|YES, NO|
+|type|No|No|HTTP, MYSQL, MSSQL|
+|weaknegrelexpiry|No|No|double|
+|weakposrelexpiry|No|No|double|
 

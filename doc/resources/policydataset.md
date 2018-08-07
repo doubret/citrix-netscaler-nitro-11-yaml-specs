@@ -28,10 +28,10 @@ Spec for **policydataset** resource - [citrix documentation page](https://develo
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| indextype | No | Auto-generated, User-defined |
-| name | No | string |
-| type | No | ipv4, number, ipv6, ulong, double, mac |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|indextype|No|No|Auto-generated, User-defined|
+|name|No|No|string|
+|type|No|No|ipv4, number, ipv6, ulong, double, mac|
 

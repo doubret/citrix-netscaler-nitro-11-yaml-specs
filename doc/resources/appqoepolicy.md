@@ -28,9 +28,11 @@ Spec for **appqoepolicy** resource - [citrix documentation page](https://develop
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | appqoeaction.name |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[appqoeaction.name](/doc/resources/appqoeaction.md)
+|
+|name|No|No|string|
+|rule|No|No|string|
 

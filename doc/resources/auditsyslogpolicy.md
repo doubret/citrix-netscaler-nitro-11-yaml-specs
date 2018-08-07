@@ -28,9 +28,11 @@ Spec for **auditsyslogpolicy** resource - [citrix documentation page](https://de
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | auditsyslogaction.name |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[auditsyslogaction.name](/doc/resources/auditsyslogaction.md)
+|
+|name|No|No|string|
+|rule|No|No|string|
 

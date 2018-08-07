@@ -28,11 +28,11 @@ Spec for **netprofile** resource - [citrix documentation page](https://developer
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| name | No | string |
-| overridelsn | No | ENABLED, DISABLED |
-| srcip | No | ip |
-| srcippersistency | No | ENABLED, DISABLED |
-| td | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|name|No|No|string|
+|overridelsn|No|No|ENABLED, DISABLED|
+|srcip|No|No|ip|
+|srcippersistency|No|No|ENABLED, DISABLED|
+|td|No|No|double|
 

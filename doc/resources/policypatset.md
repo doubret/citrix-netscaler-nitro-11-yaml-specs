@@ -28,9 +28,9 @@ Spec for **policypatset** resource - [citrix documentation page](https://develop
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| indextype | No | Auto-generated, User-defined |
-| name | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|indextype|No|No|Auto-generated, User-defined|
+|name|No|No|string|
 

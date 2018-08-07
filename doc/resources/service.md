@@ -28,47 +28,55 @@ Spec for **service** resource - [citrix documentation page](https://developer-do
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| accessdown | No | YES, NO |
-| appflowlog | No | ENABLED, DISABLED |
-| cacheable | No | YES, NO |
-| cachetype | No | TRANSPARENT, REVERSE, FORWARD |
-| cip | No | ENABLED, DISABLED |
-| cipheader | No | string |
-| cka | No | YES, NO |
-| cleartextport | No | int |
-| clttimeout | No | int |
-| cmp | No | YES, NO |
-| comment | No | string |
-| customserverid | No | string |
-| dnsprofilename | No | dnsprofile.dnsprofilename |
-| downstateflush | No | ENABLED, DISABLED |
-| hashid | No | double |
-| healthmonitor | No | YES, NO |
-| httpprofilename | No | nshttpprofile.name |
-| ip | No | ip |
-| maxbandwidth | No | double |
-| maxclient | No | double |
-| maxreq | No | double |
-| monconnectionclose | No | RESET, FIN |
-| monthreshold | No | double |
-| name | No | string |
-| netprofile | No | string |
-| pathmonitor | No | YES, NO |
-| pathmonitorindv | No | YES, NO |
-| port | No | int |
-| processlocal | No | ENABLED, DISABLED |
-| rtspsessionidremap | No | ON, OFF |
-| sc | No | ON, OFF |
-| serverid | No | double |
-| servername | No | server.name |
-| servicetype | No | HTTP, FTP, TCP, UDP, SSL, SSL_BRIDGE, SSL_TCP, DTLS, NNTP, RPCSVR, DNS, ADNS, SNMP, RTSP, DHCPRA, ANY, SIP_UDP, SIP_TCP, SIP_SSL, DNS_TCP, ADNS_TCP, MYSQL, MSSQL, ORACLE, RADIUS, RADIUSListener, RDP, DIAMETER, SSL_DIAMETER, TFTP, SMPP, PPTP, GRE, SYSLOGTCP, SYSLOGUDP, FIX, SSL_FIX, USER_TCP, USER_SSL_TCP |
-| sp | No | ON, OFF |
-| svrtimeout | No | int |
-| tcpb | No | YES, NO |
-| tcpprofilename | No | nstcpprofile.name |
-| td | No | double |
-| useproxyport | No | YES, NO |
-| usip | No | YES, NO |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|accessdown|No|No|YES, NO|
+|appflowlog|No|No|ENABLED, DISABLED|
+|cacheable|No|No|YES, NO|
+|cachetype|No|No|TRANSPARENT, REVERSE, FORWARD|
+|cip|No|No|ENABLED, DISABLED|
+|cipheader|No|No|string|
+|cka|No|No|YES, NO|
+|cleartextport|No|No|int|
+|clttimeout|No|No|int|
+|cmp|No|No|YES, NO|
+|comment|No|No|string|
+|customserverid|No|No|string|
+|dnsprofilename|No|No
+|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)
+|
+|downstateflush|No|No|ENABLED, DISABLED|
+|hashid|No|No|double|
+|healthmonitor|No|No|YES, NO|
+|httpprofilename|No|No
+|[nshttpprofile.name](/doc/resources/nshttpprofile.md)
+|
+|ip|No|No|ip|
+|maxbandwidth|No|No|double|
+|maxclient|No|No|double|
+|maxreq|No|No|double|
+|monconnectionclose|No|No|RESET, FIN|
+|monthreshold|No|No|double|
+|name|No|No|string|
+|netprofile|No|No|string|
+|pathmonitor|No|No|YES, NO|
+|pathmonitorindv|No|No|YES, NO|
+|port|No|No|int|
+|processlocal|No|No|ENABLED, DISABLED|
+|rtspsessionidremap|No|No|ON, OFF|
+|sc|No|No|ON, OFF|
+|serverid|No|No|double|
+|servername|No|No
+|[server.name](/doc/resources/server.md)
+|
+|servicetype|No|No|HTTP, FTP, TCP, UDP, SSL, SSL_BRIDGE, SSL_TCP, DTLS, NNTP, RPCSVR, DNS, ADNS, SNMP, RTSP, DHCPRA, ANY, SIP_UDP, SIP_TCP, SIP_SSL, DNS_TCP, ADNS_TCP, MYSQL, MSSQL, ORACLE, RADIUS, RADIUSListener, RDP, DIAMETER, SSL_DIAMETER, TFTP, SMPP, PPTP, GRE, SYSLOGTCP, SYSLOGUDP, FIX, SSL_FIX, USER_TCP, USER_SSL_TCP|
+|sp|No|No|ON, OFF|
+|svrtimeout|No|No|int|
+|tcpb|No|No|YES, NO|
+|tcpprofilename|No|No
+|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
+|
+|td|No|No|double|
+|useproxyport|No|No|YES, NO|
+|usip|No|No|YES, NO|
 

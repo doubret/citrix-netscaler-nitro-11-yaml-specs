@@ -28,9 +28,9 @@ Spec for **videooptimizationpolicylabel** resource - [citrix documentation page]
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| labelname | No | string |
-| policylabeltype | No | videoopt_req, videoopt_res |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|labelname|No|No|string|
+|policylabeltype|No|No|videoopt_req, videoopt_res|
 

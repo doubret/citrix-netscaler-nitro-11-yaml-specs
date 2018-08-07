@@ -28,9 +28,9 @@ Spec for **authorizationpolicy** resource - [citrix documentation page](https://
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | string |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|string|
+|name|No|No|string|
+|rule|No|No|string|
 

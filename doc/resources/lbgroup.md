@@ -28,17 +28,17 @@ Spec for **lbgroup** resource - [citrix documentation page](https://developer-do
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| backuppersistencetimeout | No | double |
-| cookiedomain | No | string |
-| cookiename | No | string |
-| name | No | string |
-| persistencebackup | No | SOURCEIP, NONE |
-| persistencetype | No | SOURCEIP, COOKIEINSERT, RULE, NONE |
-| persistmask | No | string |
-| rule | No | string |
-| timeout | No | double |
-| usevserverpersistency | No | ENABLED, DISABLED |
-| v6persistmasklen | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|backuppersistencetimeout|No|No|double|
+|cookiedomain|No|No|string|
+|cookiename|No|No|string|
+|name|No|No|string|
+|persistencebackup|No|No|SOURCEIP, NONE|
+|persistencetype|No|No|SOURCEIP, COOKIEINSERT, RULE, NONE|
+|persistmask|No|No|string|
+|rule|No|No|string|
+|timeout|No|No|double|
+|usevserverpersistency|No|No|ENABLED, DISABLED|
+|v6persistmasklen|No|No|double|
 

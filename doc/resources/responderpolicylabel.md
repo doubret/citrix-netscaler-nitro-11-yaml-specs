@@ -28,9 +28,9 @@ Spec for **responderpolicylabel** resource - [citrix documentation page](https:/
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| labelname | No | string |
-| policylabeltype | No | HTTP, OTHERTCP, SIP_UDP, SIP_TCP, MYSQL, MSSQL, NAT, DIAMETER, RADIUS, DNS |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|labelname|No|No|string|
+|policylabeltype|No|No|HTTP, OTHERTCP, SIP_UDP, SIP_TCP, MYSQL, MSSQL, NAT, DIAMETER, RADIUS, DNS|
 

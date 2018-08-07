@@ -28,9 +28,9 @@ Spec for **dospolicy** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| cltdetectrate | No | double |
-| name | No | string |
-| qdepth | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|cltdetectrate|No|No|double|
+|name|No|No|string|
+|qdepth|No|No|double|
 

@@ -28,10 +28,10 @@ Spec for **transformprofile** resource - [citrix documentation page](https://dev
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| name | No | string |
-| onlytransformabsurlinbody | No | ON, OFF |
-| type | No | URL |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|name|No|No|string|
+|onlytransformabsurlinbody|No|No|ON, OFF|
+|type|No|No|URL|
 

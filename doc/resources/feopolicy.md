@@ -28,9 +28,11 @@ Spec for **feopolicy** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | feoaction.name |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[feoaction.name](/doc/resources/feoaction.md)
+|
+|name|No|No|string|
+|rule|No|No|string|
 

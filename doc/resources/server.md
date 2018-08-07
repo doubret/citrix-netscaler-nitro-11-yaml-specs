@@ -28,16 +28,16 @@ Spec for **server** resource - [citrix documentation page](https://developer-doc
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| state | No | ENABLED, DISABLED |
-| comment | No | string |
-| domain | No | string |
-| domainresolveretry | No | int |
-| ipaddress | No | ip |
-| ipv6address | No | YES, NO |
-| name | No | string |
-| td | No | double |
-| translationip | No | ip |
-| translationmask | No | ip_mask |
+| Name | Update | Array | Type |
+|----|----|----|----|
+| state | No | No | ENABLED, DISABLED |
+|comment|No|No|string|
+|domain|No|No|string|
+|domainresolveretry|No|No|int|
+|ipaddress|No|No|ip|
+|ipv6address|No|No|YES, NO|
+|name|No|No|string|
+|td|No|No|double|
+|translationip|No|No|ip|
+|translationmask|No|No|ip_mask|
 

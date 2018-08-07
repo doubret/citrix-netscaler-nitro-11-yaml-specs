@@ -28,23 +28,23 @@ Spec for **auditnslogaction** resource - [citrix documentation page](https://dev
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| acl | No | ENABLED, DISABLED |
-| alg | No | ENABLED, DISABLED |
-| appflowexport | No | ENABLED, DISABLED |
-| dateformat | No | MMDDYYYY, DDMMYYYY, YYYYMMDD |
-| domainresolveretry | No | int |
-| logfacility | No | LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7 |
-| loglevel | No | ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE[] |
-| lsn | No | ENABLED, DISABLED |
-| name | No | string |
-| serverdomainname | No | string |
-| serverip | No | ip |
-| serverport | No | int |
-| sslinterception | No | ENABLED, DISABLED |
-| subscriberlog | No | ENABLED, DISABLED |
-| tcp | No | NONE, ALL |
-| timezone | No | GMT_TIME, LOCAL_TIME |
-| userdefinedauditlog | No | YES, NO |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|acl|No|No|ENABLED, DISABLED|
+|alg|No|No|ENABLED, DISABLED|
+|appflowexport|No|No|ENABLED, DISABLED|
+|dateformat|No|No|MMDDYYYY, DDMMYYYY, YYYYMMDD|
+|domainresolveretry|No|No|int|
+|logfacility|No|No|LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7|
+|loglevel|Yes|No|ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE|
+|lsn|No|No|ENABLED, DISABLED|
+|name|No|No|string|
+|serverdomainname|No|No|string|
+|serverip|No|No|ip|
+|serverport|No|No|int|
+|sslinterception|No|No|ENABLED, DISABLED|
+|subscriberlog|No|No|ENABLED, DISABLED|
+|tcp|No|No|NONE, ALL|
+|timezone|No|No|GMT_TIME, LOCAL_TIME|
+|userdefinedauditlog|No|No|YES, NO|
 

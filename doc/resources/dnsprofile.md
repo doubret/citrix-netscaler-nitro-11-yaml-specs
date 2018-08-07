@@ -28,15 +28,15 @@ Spec for **dnsprofile** resource - [citrix documentation page](https://developer
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| cacheecsresponses | No | ENABLED, DISABLED |
-| cachenegativeresponses | No | ENABLED, DISABLED |
-| cacherecords | No | ENABLED, DISABLED |
-| dnsanswerseclogging | No | ENABLED, DISABLED |
-| dnserrorlogging | No | ENABLED, DISABLED |
-| dnsextendedlogging | No | ENABLED, DISABLED |
-| dnsprofilename | No | string |
-| dnsquerylogging | No | ENABLED, DISABLED |
-| dropmultiqueryrequest | No | ENABLED, DISABLED |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|cacheecsresponses|No|No|ENABLED, DISABLED|
+|cachenegativeresponses|No|No|ENABLED, DISABLED|
+|cacherecords|No|No|ENABLED, DISABLED|
+|dnsanswerseclogging|No|No|ENABLED, DISABLED|
+|dnserrorlogging|No|No|ENABLED, DISABLED|
+|dnsextendedlogging|No|No|ENABLED, DISABLED|
+|dnsprofilename|No|No|string|
+|dnsquerylogging|No|No|ENABLED, DISABLED|
+|dropmultiqueryrequest|No|No|ENABLED, DISABLED|
 

@@ -28,29 +28,29 @@ Spec for **feoaction** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| cachemaxage | No | double |
-| clientsidemeasurements | No | bool |
-| convertimporttolink | No | bool |
-| csscombine | No | bool |
-| cssimginline | No | bool |
-| cssinline | No | bool |
-| cssminify | No | bool |
-| cssmovetohead | No | bool |
-| dnsshards | No | string[] |
-| domainsharding | No | string |
-| htmlminify | No | bool |
-| imggiftopng | No | bool |
-| imginline | No | bool |
-| imglazyload | No | bool |
-| imgshrinktoattrib | No | bool |
-| imgtojpegxr | No | bool |
-| imgtowebp | No | bool |
-| jpgoptimize | No | bool |
-| jsinline | No | bool |
-| jsminify | No | bool |
-| jsmovetoend | No | bool |
-| name | No | string |
-| pageextendcache | No | bool |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|cachemaxage|No|No|double|
+|clientsidemeasurements|No|No|bool|
+|convertimporttolink|No|No|bool|
+|csscombine|No|No|bool|
+|cssimginline|No|No|bool|
+|cssinline|No|No|bool|
+|cssminify|No|No|bool|
+|cssmovetohead|No|No|bool|
+|dnsshards|Yes|No|string|
+|domainsharding|No|No|string|
+|htmlminify|No|No|bool|
+|imggiftopng|No|No|bool|
+|imginline|No|No|bool|
+|imglazyload|No|No|bool|
+|imgshrinktoattrib|No|No|bool|
+|imgtojpegxr|No|No|bool|
+|imgtowebp|No|No|bool|
+|jpgoptimize|No|No|bool|
+|jsinline|No|No|bool|
+|jsminify|No|No|bool|
+|jsmovetoend|No|No|bool|
+|name|No|No|string|
+|pageextendcache|No|No|bool|
 

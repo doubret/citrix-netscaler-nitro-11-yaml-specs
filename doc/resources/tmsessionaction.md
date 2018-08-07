@@ -28,17 +28,17 @@ Spec for **tmsessionaction** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| defaultauthorizationaction | No | ALLOW, DENY |
-| homepage | No | string |
-| httponlycookie | No | YES, NO |
-| kcdaccount | No | string |
-| name | No | string |
-| persistentcookie | No | YES, NO |
-| persistentcookievalidity | No | double |
-| sesstimeout | No | double |
-| sso | No | ON, OFF |
-| ssocredential | No | PRIMARY, SECONDARY |
-| ssodomain | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|defaultauthorizationaction|No|No|ALLOW, DENY|
+|homepage|No|No|string|
+|httponlycookie|No|No|YES, NO|
+|kcdaccount|No|No|string|
+|name|No|No|string|
+|persistentcookie|No|No|YES, NO|
+|persistentcookievalidity|No|No|double|
+|sesstimeout|No|No|double|
+|sso|No|No|ON, OFF|
+|ssocredential|No|No|PRIMARY, SECONDARY|
+|ssodomain|No|No|string|
 

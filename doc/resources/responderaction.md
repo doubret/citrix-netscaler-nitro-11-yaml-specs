@@ -28,14 +28,14 @@ Spec for **responderaction** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| bypasssafetycheck | No | YES, NO |
-| comment | No | string |
-| htmlpage | No | string |
-| name | No | string |
-| reasonphrase | No | string |
-| responsestatuscode | No | double |
-| target | No | string |
-| type | No | noop, respondwith, redirect, respondwithhtmlpage, sqlresponse_ok, sqlresponse_error |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|bypasssafetycheck|No|No|YES, NO|
+|comment|No|No|string|
+|htmlpage|No|No|string|
+|name|No|No|string|
+|reasonphrase|No|No|string|
+|responsestatuscode|No|No|double|
+|target|No|No|string|
+|type|No|No|noop, respondwith, redirect, respondwithhtmlpage, sqlresponse_ok, sqlresponse_error|
 

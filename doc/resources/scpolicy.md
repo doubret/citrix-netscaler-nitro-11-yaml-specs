@@ -28,14 +28,14 @@ Spec for **scpolicy** resource - [citrix documentation page](https://developer-d
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | string |
-| altcontentpath | No | ACS, NS, NOACTION |
-| altcontentsvcname | No | string |
-| delay | No | double |
-| maxconn | No | double |
-| name | No | string |
-| rule | No | string |
-| url | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|string|
+|altcontentpath|No|No|ACS, NS, NOACTION|
+|altcontentsvcname|No|No|string|
+|delay|No|No|double|
+|maxconn|No|No|double|
+|name|No|No|string|
+|rule|No|No|string|
+|url|No|No|string|
 

@@ -28,11 +28,11 @@ Spec for **policyexpression** resource - [citrix documentation page](https://dev
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| clientsecuritymessage | No | string |
-| comment | No | string |
-| description | No | string |
-| name | No | string |
-| value | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|clientsecuritymessage|No|No|string|
+|comment|No|No|string|
+|description|No|No|string|
+|name|No|No|string|
+|value|No|No|string|
 

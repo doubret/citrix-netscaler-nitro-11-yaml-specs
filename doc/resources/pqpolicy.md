@@ -28,12 +28,12 @@ Spec for **pqpolicy** resource - [citrix documentation page](https://developer-d
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| policyname | No | string |
-| polqdepth | No | double |
-| priority | No | double |
-| qdepth | No | double |
-| rule | No | string |
-| weight | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|policyname|No|No|string|
+|polqdepth|No|No|double|
+|priority|No|No|double|
+|qdepth|No|No|double|
+|rule|No|No|string|
+|weight|No|No|double|
 

@@ -28,11 +28,11 @@ Spec for **lbwlm** resource - [citrix documentation page](https://developer-docs
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| ipaddress | No | ip |
-| katimeout | No | double |
-| lbuid | No | string |
-| port | No | int |
-| wlmname | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|ipaddress|No|No|ip|
+|katimeout|No|No|double|
+|lbuid|No|No|string|
+|port|No|No|int|
+|wlmname|No|No|string|
 

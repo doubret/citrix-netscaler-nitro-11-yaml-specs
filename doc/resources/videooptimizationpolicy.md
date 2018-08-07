@@ -28,12 +28,14 @@ Spec for **videooptimizationpolicy** resource - [citrix documentation page](http
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | videooptimizationaction.name |
-| comment | No | string |
-| logaction | No | string |
-| name | No | string |
-| rule | No | string |
-| undefaction | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[videooptimizationaction.name](/doc/resources/videooptimizationaction.md)
+|
+|comment|No|No|string|
+|logaction|No|No|string|
+|name|No|No|string|
+|rule|No|No|string|
+|undefaction|No|No|string|
 

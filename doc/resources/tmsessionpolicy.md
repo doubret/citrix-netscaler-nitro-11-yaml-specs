@@ -28,9 +28,11 @@ Spec for **tmsessionpolicy** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | tmsessionaction.name |
-| name | No | string |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[tmsessionaction.name](/doc/resources/tmsessionaction.md)
+|
+|name|No|No|string|
+|rule|No|No|string|
 

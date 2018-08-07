@@ -28,11 +28,11 @@ Spec for **caaction** resource - [citrix documentation page](https://developer-d
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| accumressize | No | double |
-| comment | No | string |
-| lbvserver | No | string |
-| name | No | string |
-| type | No | nolookup, lookup, noop |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|accumressize|No|No|double|
+|comment|No|No|string|
+|lbvserver|No|No|string|
+|name|No|No|string|
+|type|No|No|nolookup, lookup, noop|
 

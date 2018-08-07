@@ -28,8 +28,8 @@ Spec for **cachepolicylabel** resource - [citrix documentation page](https://dev
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| evaluates | No | REQ, RES, MSSQL_REQ, MSSQL_RES, MYSQL_REQ, MYSQL_RES |
-| labelname | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|evaluates|No|No|REQ, RES, MSSQL_REQ, MSSQL_RES, MYSQL_REQ, MYSQL_RES|
+|labelname|No|No|string|
 

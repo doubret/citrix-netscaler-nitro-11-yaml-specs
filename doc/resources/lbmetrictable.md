@@ -28,7 +28,7 @@ Spec for **lbmetrictable** resource - [citrix documentation page](https://develo
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| metrictable | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|metrictable|No|No|string|
 

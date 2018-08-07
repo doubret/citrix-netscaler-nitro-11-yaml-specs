@@ -28,10 +28,10 @@ Spec for **videooptimizationaction** resource - [citrix documentation page](http
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| comment | No | string |
-| name | No | string |
-| rate | No | int |
-| type | No | clear_text_pd, clear_text_abr, encrypted_abr, trigger_enc_abr, optimize_abr |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|name|No|No|string|
+|rate|No|No|int|
+|type|No|No|clear_text_pd, clear_text_abr, encrypted_abr, trigger_enc_abr, optimize_abr|
 

@@ -28,8 +28,8 @@ Spec for **appflowpolicylabel** resource - [citrix documentation page](https://d
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| labelname | No | string |
-| policylabeltype | No | HTTP, OTHERTCP |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|labelname|No|No|string|
+|policylabeltype|No|No|HTTP, OTHERTCP|
 

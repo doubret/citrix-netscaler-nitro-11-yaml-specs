@@ -28,56 +28,56 @@ Spec for **nstcpprofile** resource - [citrix documentation page](https://develop
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| ackaggregation | No | ENABLED, DISABLED |
-| ackonpush | No | ENABLED, DISABLED |
-| buffersize | No | double |
-| burstratecontrol | No | DISABLED, FIXED, DYNAMIC |
-| delayedack | No | double |
-| dropestconnontimeout | No | ENABLED, DISABLED |
-| drophalfclosedconnontimeout | No | ENABLED, DISABLED |
-| dsack | No | ENABLED, DISABLED |
-| dupackthresh | No | double |
-| dynamicreceivebuffering | No | ENABLED, DISABLED |
-| ecn | No | ENABLED, DISABLED |
-| establishclientconn | No | AUTOMATIC, CONN_ESTABLISHED, ON_FIRST_DATA |
-| fack | No | ENABLED, DISABLED |
-| flavor | No | Default, Westwood, BIC, CUBIC, Nile |
-| frto | No | ENABLED, DISABLED |
-| hystart | No | ENABLED, DISABLED |
-| initialcwnd | No | double |
-| ka | No | ENABLED, DISABLED |
-| kaconnidletime | No | double |
-| kamaxprobes | No | double |
-| kaprobeinterval | No | double |
-| kaprobeupdatelastactivity | No | ENABLED, DISABLED |
-| maxburst | No | double |
-| maxcwnd | No | double |
-| maxpktpermss | No | double |
-| minrto | No | double |
-| mptcp | No | ENABLED, DISABLED |
-| mptcpdropdataonpreestsf | No | ENABLED, DISABLED |
-| mptcpfastopen | No | ENABLED, DISABLED |
-| mptcpsessiontimeout | No | double |
-| mss | No | double |
-| nagle | No | ENABLED, DISABLED |
-| name | No | string |
-| oooqsize | No | double |
-| pktperretx | No | double |
-| rateqmax | No | double |
-| rstmaxack | No | ENABLED, DISABLED |
-| rstwindowattenuate | No | ENABLED, DISABLED |
-| sack | No | ENABLED, DISABLED |
-| sendbuffsize | No | double |
-| slowstartincr | No | double |
-| spoofsyndrop | No | ENABLED, DISABLED |
-| syncookie | No | ENABLED, DISABLED |
-| tcpfastopen | No | ENABLED, DISABLED |
-| tcpmode | No | TRANSPARENT, ENDPOINT |
-| tcprate | No | double |
-| tcpsegoffload | No | AUTOMATIC, DISABLED |
-| timestamp | No | ENABLED, DISABLED |
-| ws | No | ENABLED, DISABLED |
-| wsval | No | double |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|ackaggregation|No|No|ENABLED, DISABLED|
+|ackonpush|No|No|ENABLED, DISABLED|
+|buffersize|No|No|double|
+|burstratecontrol|No|No|DISABLED, FIXED, DYNAMIC|
+|delayedack|No|No|double|
+|dropestconnontimeout|No|No|ENABLED, DISABLED|
+|drophalfclosedconnontimeout|No|No|ENABLED, DISABLED|
+|dsack|No|No|ENABLED, DISABLED|
+|dupackthresh|No|No|double|
+|dynamicreceivebuffering|No|No|ENABLED, DISABLED|
+|ecn|No|No|ENABLED, DISABLED|
+|establishclientconn|No|No|AUTOMATIC, CONN_ESTABLISHED, ON_FIRST_DATA|
+|fack|No|No|ENABLED, DISABLED|
+|flavor|No|No|Default, Westwood, BIC, CUBIC, Nile|
+|frto|No|No|ENABLED, DISABLED|
+|hystart|No|No|ENABLED, DISABLED|
+|initialcwnd|No|No|double|
+|ka|No|No|ENABLED, DISABLED|
+|kaconnidletime|No|No|double|
+|kamaxprobes|No|No|double|
+|kaprobeinterval|No|No|double|
+|kaprobeupdatelastactivity|No|No|ENABLED, DISABLED|
+|maxburst|No|No|double|
+|maxcwnd|No|No|double|
+|maxpktpermss|No|No|double|
+|minrto|No|No|double|
+|mptcp|No|No|ENABLED, DISABLED|
+|mptcpdropdataonpreestsf|No|No|ENABLED, DISABLED|
+|mptcpfastopen|No|No|ENABLED, DISABLED|
+|mptcpsessiontimeout|No|No|double|
+|mss|No|No|double|
+|nagle|No|No|ENABLED, DISABLED|
+|name|No|No|string|
+|oooqsize|No|No|double|
+|pktperretx|No|No|double|
+|rateqmax|No|No|double|
+|rstmaxack|No|No|ENABLED, DISABLED|
+|rstwindowattenuate|No|No|ENABLED, DISABLED|
+|sack|No|No|ENABLED, DISABLED|
+|sendbuffsize|No|No|double|
+|slowstartincr|No|No|double|
+|spoofsyndrop|No|No|ENABLED, DISABLED|
+|syncookie|No|No|ENABLED, DISABLED|
+|tcpfastopen|No|No|ENABLED, DISABLED|
+|tcpmode|No|No|TRANSPARENT, ENDPOINT|
+|tcprate|No|No|double|
+|tcpsegoffload|No|No|AUTOMATIC, DISABLED|
+|timestamp|No|No|ENABLED, DISABLED|
+|ws|No|No|ENABLED, DISABLED|
+|wsval|No|No|double|
 

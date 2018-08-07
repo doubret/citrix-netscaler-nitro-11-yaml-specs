@@ -28,29 +28,35 @@ Spec for **auditsyslogaction** resource - [citrix documentation page](https://de
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| acl | No | ENABLED, DISABLED |
-| alg | No | ENABLED, DISABLED |
-| appflowexport | No | ENABLED, DISABLED |
-| dateformat | No | MMDDYYYY, DDMMYYYY, YYYYMMDD |
-| dns | No | ENABLED, DISABLED |
-| domainresolveretry | No | int |
-| lbvservername | No | lbvserver.name |
-| logfacility | No | LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7 |
-| loglevel | No | ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE[] |
-| lsn | No | ENABLED, DISABLED |
-| maxlogdatasizetohold | No | double |
-| name | No | string |
-| netprofile | No | netprofile.name |
-| serverdomainname | No | string |
-| serverip | No | ip |
-| serverport | No | int |
-| sslinterception | No | ENABLED, DISABLED |
-| subscriberlog | No | ENABLED, DISABLED |
-| tcp | No | NONE, ALL |
-| tcpprofilename | No | nstcpprofile.name |
-| timezone | No | GMT_TIME, LOCAL_TIME |
-| transport | No | TCP, UDP |
-| userdefinedauditlog | No | YES, NO |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|acl|No|No|ENABLED, DISABLED|
+|alg|No|No|ENABLED, DISABLED|
+|appflowexport|No|No|ENABLED, DISABLED|
+|dateformat|No|No|MMDDYYYY, DDMMYYYY, YYYYMMDD|
+|dns|No|No|ENABLED, DISABLED|
+|domainresolveretry|No|No|int|
+|lbvservername|No|No
+|[lbvserver.name](/doc/resources/lbvserver.md)
+|
+|logfacility|No|No|LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7|
+|loglevel|Yes|No|ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE|
+|lsn|No|No|ENABLED, DISABLED|
+|maxlogdatasizetohold|No|No|double|
+|name|No|No|string|
+|netprofile|No|No
+|[netprofile.name](/doc/resources/netprofile.md)
+|
+|serverdomainname|No|No|string|
+|serverip|No|No|ip|
+|serverport|No|No|int|
+|sslinterception|No|No|ENABLED, DISABLED|
+|subscriberlog|No|No|ENABLED, DISABLED|
+|tcp|No|No|NONE, ALL|
+|tcpprofilename|No|No
+|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
+|
+|timezone|No|No|GMT_TIME, LOCAL_TIME|
+|transport|No|No|TCP, UDP|
+|userdefinedauditlog|No|No|YES, NO|
 

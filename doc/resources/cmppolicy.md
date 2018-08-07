@@ -28,9 +28,11 @@ Spec for **cmppolicy** resource - [citrix documentation page](https://developer-
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| name | No | string |
-| resaction | No | cmpaction.name |
-| rule | No | string |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|name|No|No|string|
+|resaction|No|No
+|[cmpaction.name](/doc/resources/cmpaction.md)
+|
+|rule|No|No|string|
 

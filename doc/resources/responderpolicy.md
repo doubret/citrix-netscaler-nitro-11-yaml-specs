@@ -28,13 +28,17 @@ Spec for **responderpolicy** resource - [citrix documentation page](https://deve
 
 ## Fields
 
-| Name | Update | Type |
-|----|----|----|
-| action | No | responderaction.name |
-| appflowaction | No | appflowaction.name |
-| comment | No | string |
-| logaction | No | string |
-| name | No | string |
-| rule | No | string |
-| undefaction | No | NOOP, RESET, DROP |
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No
+|[responderaction.name](/doc/resources/responderaction.md)
+|
+|appflowaction|No|No
+|[appflowaction.name](/doc/resources/appflowaction.md)
+|
+|comment|No|No|string|
+|logaction|No|No|string|
+|name|No|No|string|
+|rule|No|No|string|
+|undefaction|No|No|NOOP, RESET, DROP|
 
