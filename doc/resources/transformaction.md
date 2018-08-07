@@ -2,9 +2,25 @@
 
 Spec for **transformaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/transform/transformaction/transformaction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|cookiedomainfrom|No|No|string|
+|cookiedomaininto|No|No|string|
+|name|No|No|string|
+|priority|No|No|double|
+|profilename|No|No|[transformprofile.name](/doc/resources/transformprofile.md)|
+|requrlfrom|No|No|string|
+|requrlinto|No|No|string|
+|resurlfrom|No|No|string|
+|resurlinto|No|No|string|
+|state|No|No|ENABLED, DISABLED|
 
 ## Key
 
@@ -25,20 +41,4 @@ Spec for **transformaction** resource - [citrix documentation page](https://deve
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/transformaction?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/transformaction?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/transformaction?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|comment|No|No|string|
-|cookiedomainfrom|No|No|string|
-|cookiedomaininto|No|No|string|
-|name|No|No|string|
-|priority|No|No|double|
-|profilename|No|No|[transformprofile.name](/doc/resources/transformprofile.md)|
-|requrlfrom|No|No|string|
-|requrlinto|No|No|string|
-|resurlfrom|No|No|string|
-|resurlinto|No|No|string|
-|state|No|No|ENABLED, DISABLED|
 

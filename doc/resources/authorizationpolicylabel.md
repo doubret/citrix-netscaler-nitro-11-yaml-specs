@@ -2,9 +2,15 @@
 
 Spec for **authorizationpolicylabel** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/authorization/authorizationpolicylabel/authorizationpolicylabel/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|labelname|No|No|string|
 
 ## Key
 
@@ -25,10 +31,4 @@ Spec for **authorizationpolicylabel** resource - [citrix documentation page](htt
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/authorizationpolicylabel?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/authorizationpolicylabel?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/authorizationpolicylabel?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|labelname|No|No|string|
 

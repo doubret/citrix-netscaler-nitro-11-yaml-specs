@@ -2,29 +2,9 @@
 
 Spec for **servicegroup** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/basic/servicegroup/servicegroup/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name |  |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=unset` |
 
 ## Fields
 
@@ -64,4 +44,24 @@ Spec for **servicegroup** resource - [citrix documentation page](https://develop
 |td|No|No|double|
 |useproxyport|No|No|YES, NO|
 |usip|No|No|YES, NO|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name |  |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/servicegroup?action=unset` |
 

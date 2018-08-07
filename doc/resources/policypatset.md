@@ -2,9 +2,17 @@
 
 Spec for **policypatset** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/policy/policypatset/policypatset/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|indextype|No|No|Auto-generated, User-defined|
+|name|No|No|string|
 
 ## Key
 
@@ -25,12 +33,4 @@ Spec for **policypatset** resource - [citrix documentation page](https://develop
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/policypatset?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/policypatset?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/policypatset?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|comment|No|No|string|
-|indextype|No|No|Auto-generated, User-defined|
-|name|No|No|string|
 

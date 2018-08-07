@@ -2,9 +2,19 @@
 
 Spec for **netprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/network/netprofile/netprofile/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|name|No|No|string|
+|overridelsn|No|No|ENABLED, DISABLED|
+|srcip|No|No|ip|
+|srcippersistency|No|No|ENABLED, DISABLED|
+|td|No|No|double|
 
 ## Key
 
@@ -25,14 +35,4 @@ Spec for **netprofile** resource - [citrix documentation page](https://developer
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/netprofile?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/netprofile?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/netprofile?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|name|No|No|string|
-|overridelsn|No|No|ENABLED, DISABLED|
-|srcip|No|No|ip|
-|srcippersistency|No|No|ENABLED, DISABLED|
-|td|No|No|double|
 

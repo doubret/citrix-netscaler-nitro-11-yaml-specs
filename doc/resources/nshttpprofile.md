@@ -2,29 +2,9 @@
 
 Spec for **nshttpprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/ns/nshttpprofile/nshttpprofile/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=unset` |
 
 ## Fields
 
@@ -63,4 +43,24 @@ Spec for **nshttpprofile** resource - [citrix documentation page](https://develo
 |spdy|No|No|DISABLED, ENABLED, V2, V3|
 |weblog|No|No|ENABLED, DISABLED|
 |websocket|No|No|ENABLED, DISABLED|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/nshttpprofile?action=unset` |
 

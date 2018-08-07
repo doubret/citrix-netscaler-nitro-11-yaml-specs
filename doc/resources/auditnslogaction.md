@@ -2,29 +2,9 @@
 
 Spec for **auditnslogaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/audit/auditnslogaction/auditnslogaction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=unset` |
 
 ## Fields
 
@@ -47,4 +27,24 @@ Spec for **auditnslogaction** resource - [citrix documentation page](https://dev
 |tcp|No|No|NONE, ALL|
 |timezone|No|No|GMT_TIME, LOCAL_TIME|
 |userdefinedauditlog|No|No|YES, NO|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditnslogaction?action=unset` |
 

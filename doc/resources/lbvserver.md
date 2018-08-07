@@ -2,29 +2,9 @@
 
 Spec for **lbvserver** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbvserver/lbvserver/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=unset` |
 
 ## Fields
 
@@ -122,4 +102,24 @@ Spec for **lbvserver** resource - [citrix documentation page](https://developer-
 |v6netmasklen|No|No|double|
 |v6persistmasklen|No|No|double|
 |vipheader|No|No|string|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver?action=unset` |
 

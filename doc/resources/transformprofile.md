@@ -2,9 +2,18 @@
 
 Spec for **transformprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/transform/transformprofile/transformprofile/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|name|No|No|string|
+|onlytransformabsurlinbody|No|No|ON, OFF|
+|type|No|No|URL|
 
 ## Key
 
@@ -25,13 +34,4 @@ Spec for **transformprofile** resource - [citrix documentation page](https://dev
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/transformprofile?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/transformprofile?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/transformprofile?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|comment|No|No|string|
-|name|No|No|string|
-|onlytransformabsurlinbody|No|No|ON, OFF|
-|type|No|No|URL|
 

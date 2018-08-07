@@ -2,9 +2,21 @@
 
 Spec for **lbprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbprofile/lbprofile/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|cookiepassphrase|No|No|string|
+|dbslb|No|No|ENABLED, DISABLED|
+|httponlycookieflag|No|No|ENABLED, DISABLED|
+|lbprofilename|No|No|string|
+|processlocal|No|No|ENABLED, DISABLED|
+|useencryptedpersistencecookie|No|No|ENABLED, DISABLED|
+|usesecuredpersistencecookie|No|No|ENABLED, DISABLED|
 
 ## Key
 
@@ -25,16 +37,4 @@ Spec for **lbprofile** resource - [citrix documentation page](https://developer-
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbprofile?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbprofile?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbprofile?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|cookiepassphrase|No|No|string|
-|dbslb|No|No|ENABLED, DISABLED|
-|httponlycookieflag|No|No|ENABLED, DISABLED|
-|lbprofilename|No|No|string|
-|processlocal|No|No|ENABLED, DISABLED|
-|useencryptedpersistencecookie|No|No|ENABLED, DISABLED|
-|usesecuredpersistencecookie|No|No|ENABLED, DISABLED|
 

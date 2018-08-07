@@ -2,9 +2,23 @@
 
 Spec for **dnsprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/domain-name-service/dnsprofile/dnsprofile/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|cacheecsresponses|No|No|ENABLED, DISABLED|
+|cachenegativeresponses|No|No|ENABLED, DISABLED|
+|cacherecords|No|No|ENABLED, DISABLED|
+|dnsanswerseclogging|No|No|ENABLED, DISABLED|
+|dnserrorlogging|No|No|ENABLED, DISABLED|
+|dnsextendedlogging|No|No|ENABLED, DISABLED|
+|dnsprofilename|No|No|string|
+|dnsquerylogging|No|No|ENABLED, DISABLED|
+|dropmultiqueryrequest|No|No|ENABLED, DISABLED|
 
 ## Key
 
@@ -25,18 +39,4 @@ Spec for **dnsprofile** resource - [citrix documentation page](https://developer
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/dnsprofile?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/dnsprofile?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/dnsprofile?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|cacheecsresponses|No|No|ENABLED, DISABLED|
-|cachenegativeresponses|No|No|ENABLED, DISABLED|
-|cacherecords|No|No|ENABLED, DISABLED|
-|dnsanswerseclogging|No|No|ENABLED, DISABLED|
-|dnserrorlogging|No|No|ENABLED, DISABLED|
-|dnsextendedlogging|No|No|ENABLED, DISABLED|
-|dnsprofilename|No|No|string|
-|dnsquerylogging|No|No|ENABLED, DISABLED|
-|dropmultiqueryrequest|No|No|ENABLED, DISABLED|
 

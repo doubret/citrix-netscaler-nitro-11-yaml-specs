@@ -2,29 +2,9 @@
 
 Spec for **nstcpprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/ns/nstcpprofile/nstcpprofile/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=unset` |
 
 ## Fields
 
@@ -80,4 +60,24 @@ Spec for **nstcpprofile** resource - [citrix documentation page](https://develop
 |timestamp|No|No|ENABLED, DISABLED|
 |ws|No|No|ENABLED, DISABLED|
 |wsval|No|No|double|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/nstcpprofile?action=unset` |
 

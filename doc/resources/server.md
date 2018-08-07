@@ -2,9 +2,24 @@
 
 Spec for **server** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/basic/server/server/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+| state | No | No | ENABLED, DISABLED |
+|comment|No|No|string|
+|domain|No|No|string|
+|domainresolveretry|No|No|int|
+|ipaddress|No|No|ip|
+|ipv6address|No|No|YES, NO|
+|name|No|No|string|
+|td|No|No|double|
+|translationip|No|No|ip|
+|translationmask|No|No|ip_mask|
 
 ## Key
 
@@ -25,19 +40,4 @@ Spec for **server** resource - [citrix documentation page](https://developer-doc
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/server?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/server?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/server?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-| state | No | No | ENABLED, DISABLED |
-|comment|No|No|string|
-|domain|No|No|string|
-|domainresolveretry|No|No|int|
-|ipaddress|No|No|ip|
-|ipv6address|No|No|YES, NO|
-|name|No|No|string|
-|td|No|No|double|
-|translationip|No|No|ip|
-|translationmask|No|No|ip_mask|
 

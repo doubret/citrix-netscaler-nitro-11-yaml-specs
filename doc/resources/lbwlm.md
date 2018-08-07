@@ -2,9 +2,19 @@
 
 Spec for **lbwlm** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbwlm/lbwlm/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|ipaddress|No|No|ip|
+|katimeout|No|No|double|
+|lbuid|No|No|string|
+|port|No|No|int|
+|wlmname|No|No|string|
 
 ## Key
 
@@ -25,14 +35,4 @@ Spec for **lbwlm** resource - [citrix documentation page](https://developer-docs
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbwlm?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbwlm?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbwlm?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|ipaddress|No|No|ip|
-|katimeout|No|No|double|
-|lbuid|No|No|string|
-|port|No|No|int|
-|wlmname|No|No|string|
 

@@ -2,9 +2,20 @@
 
 Spec for **pqpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/priority-queuing/pqpolicy/pqpolicy/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|policyname|No|No|string|
+|polqdepth|No|No|double|
+|priority|No|No|double|
+|qdepth|No|No|double|
+|rule|No|No|string|
+|weight|No|No|double|
 
 ## Key
 
@@ -25,15 +36,4 @@ Spec for **pqpolicy** resource - [citrix documentation page](https://developer-d
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/pqpolicy?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/pqpolicy?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/pqpolicy?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|policyname|No|No|string|
-|polqdepth|No|No|double|
-|priority|No|No|double|
-|qdepth|No|No|double|
-|rule|No|No|string|
-|weight|No|No|double|
 

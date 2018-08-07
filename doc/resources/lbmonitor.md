@@ -2,30 +2,9 @@
 
 Spec for **lbmonitor** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbmonitor/lbmonitor/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| monitorname | string |
-| type | PING, TCP, HTTP, TCP-ECV, HTTP-ECV, UDP-ECV, DNS, FTP, LDNS-PING, LDNS-TCP, LDNS-DNS, RADIUS, USER, HTTP-INLINE, SIP-UDP, SIP-TCP, LOAD, FTP-EXTENDED, SMTP, SNMP, NNTP, MYSQL, MYSQL-ECV, MSSQL-ECV, ORACLE-ECV, LDAP, POP3, CITRIX-XML-SERVICE, CITRIX-WEB-INTERFACE, DNS-TCP, RTSP, ARP, CITRIX-AG, CITRIX-AAC-LOGINPAGE, CITRIX-AAC-LAS, CITRIX-XD-DDC, ND6, CITRIX-WI-EXTENDED, DIAMETER, RADIUS_ACCOUNTING, STOREFRONT, APPC, SMPP, CITRIX-XNC-ECV, CITRIX-XDM, CITRIX-STA-SERVICE, CITRIX-STA-SERVICE-NHOP |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=unset` |
 
 ## Fields
 
@@ -123,4 +102,25 @@ Spec for **lbmonitor** resource - [citrix documentation page](https://developer-
 |validatecred|No|No|string|
 |vendorid|No|No|double|
 |vendorspecificvendorid|No|No|double|
+
+## Key
+
+| Name | Type |
+|----|----|
+| monitorname | string |
+| type | PING, TCP, HTTP, TCP-ECV, HTTP-ECV, UDP-ECV, DNS, FTP, LDNS-PING, LDNS-TCP, LDNS-DNS, RADIUS, USER, HTTP-INLINE, SIP-UDP, SIP-TCP, LOAD, FTP-EXTENDED, SMTP, SNMP, NNTP, MYSQL, MYSQL-ECV, MSSQL-ECV, ORACLE-ECV, LDAP, POP3, CITRIX-XML-SERVICE, CITRIX-WEB-INTERFACE, DNS-TCP, RTSP, ARP, CITRIX-AG, CITRIX-AAC-LOGINPAGE, CITRIX-AAC-LAS, CITRIX-XD-DDC, ND6, CITRIX-WI-EXTENDED, DIAMETER, RADIUS_ACCOUNTING, STOREFRONT, APPC, SMPP, CITRIX-XNC-ECV, CITRIX-XDM, CITRIX-STA-SERVICE, CITRIX-STA-SERVICE-NHOP |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmonitor?action=unset` |
 

@@ -2,9 +2,20 @@
 
 Spec for **filteraction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/filter/filteraction/filteraction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|name|No|No|string|
+|page|No|No|string|
+|qual|No|No|reset, add, corrupt, forward, errorcode, drop|
+|respcode|No|No|double|
+|servicename|No|No|[service.name](/doc/resources/service.md)|
+|value|No|No|string|
 
 ## Key
 
@@ -25,15 +36,4 @@ Spec for **filteraction** resource - [citrix documentation page](https://develop
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/filteraction?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/filteraction?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/filteraction?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|name|No|No|string|
-|page|No|No|string|
-|qual|No|No|reset, add, corrupt, forward, errorcode, drop|
-|respcode|No|No|double|
-|servicename|No|No|[service.name](/doc/resources/service.md)|
-|value|No|No|string|
 

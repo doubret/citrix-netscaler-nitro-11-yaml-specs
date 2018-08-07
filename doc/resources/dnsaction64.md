@@ -2,9 +2,18 @@
 
 Spec for **dnsaction64** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/domain-name-service/dnsaction64/dnsaction64/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|actionname|No|No|string|
+|excluderule|No|No|string|
+|mappedrule|No|No|string|
+|prefix|No|No|string|
 
 ## Key
 
@@ -25,13 +34,4 @@ Spec for **dnsaction64** resource - [citrix documentation page](https://develope
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/dnsaction64?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/dnsaction64?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/dnsaction64?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|actionname|No|No|string|
-|excluderule|No|No|string|
-|mappedrule|No|No|string|
-|prefix|No|No|string|
 

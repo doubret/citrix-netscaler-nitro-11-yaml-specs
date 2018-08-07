@@ -2,9 +2,20 @@
 
 Spec for **videooptimizationpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/videooptimization/videooptimizationpolicy/videooptimizationpolicy/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|[videooptimizationaction.name](/doc/resources/videooptimizationaction.md)|
+|comment|No|No|string|
+|logaction|No|No|string|
+|name|No|No|string|
+|rule|No|No|string|
+|undefaction|No|No|string|
 
 ## Key
 
@@ -25,15 +36,4 @@ Spec for **videooptimizationpolicy** resource - [citrix documentation page](http
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/videooptimizationpolicy?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/videooptimizationpolicy?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/videooptimizationpolicy?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|action|No|No|[videooptimizationaction.name](/doc/resources/videooptimizationaction.md)|
-|comment|No|No|string|
-|logaction|No|No|string|
-|name|No|No|string|
-|rule|No|No|string|
-|undefaction|No|No|string|
 

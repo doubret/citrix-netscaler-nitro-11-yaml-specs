@@ -2,29 +2,9 @@
 
 Spec for **cachecontentgroup** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/integrated-caching/cachecontentgroup/cachecontentgroup/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=unset` |
 
 ## Fields
 
@@ -69,4 +49,24 @@ Spec for **cachecontentgroup** resource - [citrix documentation page](https://de
 |type|No|No|HTTP, MYSQL, MSSQL|
 |weaknegrelexpiry|No|No|double|
 |weakposrelexpiry|No|No|double|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/cachecontentgroup?action=unset` |
 

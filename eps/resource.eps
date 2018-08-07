@@ -2,9 +2,30 @@
 
 Spec for **<%= $name %>** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/<%= $resource.Scope %>/<%= $name %>/<%= $name %>/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+<% if ($resource.Fields) { -%>
+| Name | Update | Array | Type |
+|----|----|----|----|
+<% if($resource.State) { -%>
+| <%= $resource.State %> | No | No | ENABLED, DISABLED |
+<% } -%>
+<% foreach($field in $resource.Fields.GetEnumerator() | Sort -Property Name) { -%>
+|<%= $field.Name -%>
+|<%= if($field.Value.EndsWith("[]")) { "Yes" } else { "No" } -%>
+|<%= if(($field -in $resource.Update) -or ($field -in $resource.Key)) { "Yes" } else { "No" } -%>
+<% if ($field.Value.Contains('.')) { -%>
+|<%= "[$($field.Value -Replace '\[\]')](/doc/resources/$(($field.Value -Split '\.')[0]).md)" -%>
+<% } else { -%>
+|<%= ($field.Value -Replace '\[\]' -Replace '\(' -Replace '\)') -Replace '\|', ', ' -%>
+<% } -%>
+|
+<% } -%>
+<% } -%>
 
 ## Key
 
@@ -27,24 +48,3 @@ Spec for **<%= $name %>** resource - [citrix documentation page](https://develop
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/<%= $name %>?action=unset` |
-
-## Fields
-
-<% if ($resource.Fields) { -%>
-| Name | Update | Array | Type |
-|----|----|----|----|
-<% if($resource.State) { -%>
-| <%= $resource.State %> | No | No | ENABLED, DISABLED |
-<% } -%>
-<% foreach($field in $resource.Fields.GetEnumerator() | Sort -Property Name) { -%>
-|<%= $field.Name -%>
-|<%= if($field.Value.EndsWith("[]")) { "Yes" } else { "No" } -%>
-|<%= if(($field -in $resource.Update) -or ($field -in $resource.Key)) { "Yes" } else { "No" } -%>
-<% if ($field.Value.Contains('.')) { -%>
-|<%= "[$($field.Value -Replace '\[\]')](/doc/resources/$(($field.Value -Split '\.')[0]).md)" -%>
-<% } else { -%>
-|<%= ($field.Value -Replace '\[\]' -Replace '\(' -Replace '\)') -Replace '\|', ', ' -%>
-<% } -%>
-|
-<% } -%>
-<% } -%>

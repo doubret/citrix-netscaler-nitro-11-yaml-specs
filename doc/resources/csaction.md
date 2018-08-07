@@ -2,9 +2,19 @@
 
 Spec for **csaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/content-switching/csaction/csaction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|name|No|No|string|
+|targetlbvserver|No|No|[lbvserver.name](/doc/resources/lbvserver.md)|
+|targetvserver|No|No|string|
+|targetvserverexpr|No|No|string|
 
 ## Key
 
@@ -25,14 +35,4 @@ Spec for **csaction** resource - [citrix documentation page](https://developer-d
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/csaction?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/csaction?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/csaction?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|comment|No|No|string|
-|name|No|No|string|
-|targetlbvserver|No|No|[lbvserver.name](/doc/resources/lbvserver.md)|
-|targetvserver|No|No|string|
-|targetvserverexpr|No|No|string|
 

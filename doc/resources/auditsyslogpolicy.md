@@ -2,9 +2,17 @@
 
 Spec for **auditsyslogpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/audit/auditsyslogpolicy/auditsyslogpolicy/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|[auditsyslogaction.name](/doc/resources/auditsyslogaction.md)|
+|name|No|No|string|
+|rule|No|No|string|
 
 ## Key
 
@@ -25,12 +33,4 @@ Spec for **auditsyslogpolicy** resource - [citrix documentation page](https://de
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditsyslogpolicy?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditsyslogpolicy?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/auditsyslogpolicy?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|action|No|No|[auditsyslogaction.name](/doc/resources/auditsyslogaction.md)|
-|name|No|No|string|
-|rule|No|No|string|
 

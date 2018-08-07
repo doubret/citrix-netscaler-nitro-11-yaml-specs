@@ -2,9 +2,15 @@
 
 Spec for **lbmetrictable** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbmetrictable/lbmetrictable/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|metrictable|No|No|string|
 
 ## Key
 
@@ -25,10 +31,4 @@ Spec for **lbmetrictable** resource - [citrix documentation page](https://develo
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmetrictable?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmetrictable?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbmetrictable?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|metrictable|No|No|string|
 

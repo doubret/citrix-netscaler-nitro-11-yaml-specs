@@ -2,9 +2,25 @@
 
 Spec for **tmsessionaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/traffic-management/tmsessionaction/tmsessionaction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|defaultauthorizationaction|No|No|ALLOW, DENY|
+|homepage|No|No|string|
+|httponlycookie|No|No|YES, NO|
+|kcdaccount|No|No|string|
+|name|No|No|string|
+|persistentcookie|No|No|YES, NO|
+|persistentcookievalidity|No|No|double|
+|sesstimeout|No|No|double|
+|sso|No|No|ON, OFF|
+|ssocredential|No|No|PRIMARY, SECONDARY|
+|ssodomain|No|No|string|
 
 ## Key
 
@@ -25,20 +41,4 @@ Spec for **tmsessionaction** resource - [citrix documentation page](https://deve
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/tmsessionaction?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/tmsessionaction?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/tmsessionaction?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|defaultauthorizationaction|No|No|ALLOW, DENY|
-|homepage|No|No|string|
-|httponlycookie|No|No|YES, NO|
-|kcdaccount|No|No|string|
-|name|No|No|string|
-|persistentcookie|No|No|YES, NO|
-|persistentcookievalidity|No|No|double|
-|sesstimeout|No|No|double|
-|sso|No|No|ON, OFF|
-|ssocredential|No|No|PRIMARY, SECONDARY|
-|ssodomain|No|No|string|
 

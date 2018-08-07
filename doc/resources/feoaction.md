@@ -2,29 +2,9 @@
 
 Spec for **feoaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/front-end-optimization/feoaction/feoaction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/feoaction` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/feoaction/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/feoaction/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/feoaction` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=unset` |
 
 ## Fields
 
@@ -53,4 +33,24 @@ Spec for **feoaction** resource - [citrix documentation page](https://developer-
 |jsmovetoend|No|No|bool|
 |name|No|No|string|
 |pageextendcache|No|No|bool|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/feoaction` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/feoaction/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/feoaction/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/feoaction` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/feoaction?action=unset` |
 

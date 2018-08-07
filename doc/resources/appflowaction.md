@@ -2,9 +2,21 @@
 
 Spec for **appflowaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/appflow/appflowaction/appflowaction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|clientsidemeasurements|No|No|ENABLED, DISABLED|
+|collectors|Yes|No|[appflowcollector.name](/doc/resources/appflowcollector.md)|
+|comment|No|No|string|
+|name|No|No|string|
+|pagetracking|No|No|ENABLED, DISABLED|
+|securityinsight|No|No|ENABLED, DISABLED|
+|webinsight|No|No|ENABLED, DISABLED|
 
 ## Key
 
@@ -25,16 +37,4 @@ Spec for **appflowaction** resource - [citrix documentation page](https://develo
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/appflowaction?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/appflowaction?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/appflowaction?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|clientsidemeasurements|No|No|ENABLED, DISABLED|
-|collectors|Yes|No|[appflowcollector.name](/doc/resources/appflowcollector.md)|
-|comment|No|No|string|
-|name|No|No|string|
-|pagetracking|No|No|ENABLED, DISABLED|
-|securityinsight|No|No|ENABLED, DISABLED|
-|webinsight|No|No|ENABLED, DISABLED|
 

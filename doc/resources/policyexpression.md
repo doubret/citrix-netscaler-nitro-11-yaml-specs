@@ -2,9 +2,19 @@
 
 Spec for **policyexpression** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/policy/policyexpression/policyexpression/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|clientsecuritymessage|No|No|string|
+|comment|No|No|string|
+|description|No|No|string|
+|name|No|No|string|
+|value|No|No|string|
 
 ## Key
 
@@ -25,14 +35,4 @@ Spec for **policyexpression** resource - [citrix documentation page](https://dev
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/policyexpression?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/policyexpression?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/policyexpression?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|clientsecuritymessage|No|No|string|
-|comment|No|No|string|
-|description|No|No|string|
-|name|No|No|string|
-|value|No|No|string|
 

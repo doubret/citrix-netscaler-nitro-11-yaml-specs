@@ -2,9 +2,16 @@
 
 Spec for **spilloveraction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/spillover/spilloveraction/spilloveraction/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|SPILLOVER|
+|name|No|No|string|
 
 ## Key
 
@@ -25,11 +32,4 @@ Spec for **spilloveraction** resource - [citrix documentation page](https://deve
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/spilloveraction?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/spilloveraction?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/spilloveraction?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|action|No|No|SPILLOVER|
-|name|No|No|string|
 

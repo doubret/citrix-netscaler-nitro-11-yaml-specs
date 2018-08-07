@@ -2,29 +2,9 @@
 
 Spec for **service** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/basic/service/service/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
-
-## Key
-
-| Name | Type |
-|----|----|
-| name | string |
-
-## Operations
-
-| Name | Method | Url |
-|----|----|----|
-| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/service` |
-| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/service/<name>` |
-| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/service/<name>` |
-| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/service` |
-| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/service` |
-| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=enable` |
-| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=disable` |
-| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=rename` |
-| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=unset` |
 
 ## Fields
 
@@ -71,4 +51,24 @@ Spec for **service** resource - [citrix documentation page](https://developer-do
 |td|No|No|double|
 |useproxyport|No|No|YES, NO|
 |usip|No|No|YES, NO|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | string |
+
+## Operations
+
+| Name | Method | Url |
+|----|----|----|
+| List | GET | `http://<netscaler-ip-address>/nitro/v1/config/service` |
+| Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/service/<name>` |
+| Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/service/<name>` |
+| Update | PUT | `http://<netscaler-ip-address>/nitro/v1/config/service` |
+| Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/service` |
+| Enable | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=enable` |
+| Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=disable` |
+| Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=rename` |
+| Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/service?action=unset` |
 

@@ -2,9 +2,16 @@
 
 Spec for **policystringmap** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/policy/policystringmap/policystringmap/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|comment|No|No|string|
+|name|No|No|string|
 
 ## Key
 
@@ -25,11 +32,4 @@ Spec for **policystringmap** resource - [citrix documentation page](https://deve
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/policystringmap?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/policystringmap?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/policystringmap?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|comment|No|No|string|
-|name|No|No|string|
 

@@ -2,9 +2,17 @@
 
 Spec for **appqoepolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/appqoe/appqoepolicy/appqoepolicy/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|[appqoeaction.name](/doc/resources/appqoeaction.md)|
+|name|No|No|string|
+|rule|No|No|string|
 
 ## Key
 
@@ -25,12 +33,4 @@ Spec for **appqoepolicy** resource - [citrix documentation page](https://develop
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/appqoepolicy?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/appqoepolicy?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/appqoepolicy?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|action|No|No|[appqoeaction.name](/doc/resources/appqoeaction.md)|
-|name|No|No|string|
-|rule|No|No|string|
 

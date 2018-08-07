@@ -2,9 +2,17 @@
 
 Spec for **tmtrafficpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/traffic-management/tmtrafficpolicy/tmtrafficpolicy/)
 
+- [Fields](#fields)
 - [Key](#key)
 - [Operations](#operations)
-- [Fields](#fields)
+
+## Fields
+
+| Name | Update | Array | Type |
+|----|----|----|----|
+|action|No|No|[tmtrafficaction.name](/doc/resources/tmtrafficaction.md)|
+|name|No|No|string|
+|rule|No|No|string|
 
 ## Key
 
@@ -25,12 +33,4 @@ Spec for **tmtrafficpolicy** resource - [citrix documentation page](https://deve
 | Disable | POST | `http://<netscaler-ip-address>/nitro/v1/config/tmtrafficpolicy?action=disable` |
 | Rename | POST | `http://<netscaler-ip-address>/nitro/v1/config/tmtrafficpolicy?action=rename` |
 | Unset | POST | `http://<netscaler-ip-address>/nitro/v1/config/tmtrafficpolicy?action=unset` |
-
-## Fields
-
-| Name | Update | Array | Type |
-|----|----|----|----|
-|action|No|No|[tmtrafficaction.name](/doc/resources/tmtrafficaction.md)|
-|name|No|No|string|
-|rule|No|No|string|
 
