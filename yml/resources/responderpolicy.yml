@@ -1,13 +1,14 @@
 scope:                                    responder
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 responderaction.name
   undefaction:                            (NOOP|RESET|DROP)
   comment:                                string
   logaction:                              string
   appflowaction:                          appflowaction.name
+key:
+  - name
 update:
   - rule
   - action

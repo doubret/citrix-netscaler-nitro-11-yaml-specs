@@ -2,13 +2,15 @@
 
 Spec for **responderpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/responder/responderpolicy/responderpolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,11 +30,11 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | action | No | responderaction.name |
 | appflowaction | No | appflowaction.name |
 | comment | No | string |
 | logaction | No | string |
+| name | No | string |
 | rule | No | string |
 | undefaction | No | NOOP, RESET, DROP |
 

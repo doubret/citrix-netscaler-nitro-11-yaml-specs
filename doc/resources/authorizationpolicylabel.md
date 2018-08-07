@@ -2,13 +2,15 @@
 
 Spec for **authorizationpolicylabel** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/authorization/authorizationpolicylabel/authorizationpolicylabel/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : labelname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -26,4 +28,7 @@ Identifier : labelname
 
 ## Fields
 
+| Name | Update | Type |
+|----|----|----|
+| labelname | No | string |
 

@@ -1,11 +1,12 @@
 scope:                                    policy
-key:
-  name:                                   name
 fields:
+  name:                                   string
   value:                                  string
   description:                            string
   comment:                                string
   clientsecuritymessage:                  string
+key:
+  - name
 update:
   - value
   - description

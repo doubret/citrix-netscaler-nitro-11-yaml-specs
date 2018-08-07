@@ -1,12 +1,13 @@
 scope:                                    content-switching
-key:
-  name:                                   policyname
 fields:
+  policyname:                             string
   url:                                    string
   rule:                                   string
   domain:                                 string
   logaction:                              string
   action:                                 csaction.name
+key:
+  - name
 update:
   - url
   - rule

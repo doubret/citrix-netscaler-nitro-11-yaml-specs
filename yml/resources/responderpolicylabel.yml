@@ -1,6 +1,7 @@
 scope:                                    responder
-key:
-  name:                                   labelname
 fields:
+  labelname:                              string
   policylabeltype:                        (HTTP|OTHERTCP|SIP_UDP|SIP_TCP|MYSQL|MSSQL|NAT|DIAMETER|RADIUS|DNS)
   comment:                                string
+key:
+  - name

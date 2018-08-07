@@ -2,13 +2,15 @@
 
 Spec for **transformpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/transform/transformpolicy/transformpolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | comment | No | string |
 | logaction | No | string |
+| name | No | string |
 | profilename | No | transformprofile.name |
 | rule | No | string |
 

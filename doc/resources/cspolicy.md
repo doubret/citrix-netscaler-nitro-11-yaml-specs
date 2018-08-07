@@ -2,13 +2,15 @@
 
 Spec for **cspolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/content-switching/cspolicy/cspolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : policyname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : policyname
 
 | Name | Update | Type |
 |----|----|----|
-| policyname | No | string |
 | action | No | csaction.name |
 | domain | No | string |
 | logaction | No | string |
+| policyname | No | string |
 | rule | No | string |
 | url | No | string |
 

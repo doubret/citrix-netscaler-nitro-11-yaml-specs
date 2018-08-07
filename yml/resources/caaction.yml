@@ -1,11 +1,12 @@
 scope:                                    ca
-key:
-  name:                                   name
 fields:
+  name:                                   string
   accumressize:                           double
   lbvserver:                              string
   comment:                                string
   type:                                   (nolookup|lookup|noop)
+key:
+  - name
 update:
   - accumressize
   - lbvserver

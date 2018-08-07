@@ -1,10 +1,11 @@
 scope:                                    domain-name-service
-key:
-  name:                                   actionname
 fields:
+  actionname:                             string
   prefix:                                 string
   mappedrule:                             string
   excluderule:                            string
+key:
+  - name
 update:
   - prefix
   - mappedrule

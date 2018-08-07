@@ -2,13 +2,15 @@
 
 Spec for **lbprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbprofile/lbprofile/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : lbprofilename
+| Name | Type |
+|----|----|
+| lbprofilename | string |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : lbprofilename
 
 | Name | Update | Type |
 |----|----|----|
-| lbprofilename | No | string |
 | cookiepassphrase | No | string |
 | dbslb | No | ENABLED, DISABLED |
 | httponlycookieflag | No | ENABLED, DISABLED |
+| lbprofilename | No | string |
 | processlocal | No | ENABLED, DISABLED |
 | useencryptedpersistencecookie | No | ENABLED, DISABLED |
 | usesecuredpersistencecookie | No | ENABLED, DISABLED |

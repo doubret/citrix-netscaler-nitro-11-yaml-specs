@@ -2,13 +2,15 @@
 
 Spec for **lbvserver** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbvserver/lbvserver/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | state | No | ENABLED, DISABLED |
 | appflowlog | No | ENABLED, DISABLED |
 | authentication | No | ON, OFF |
@@ -76,6 +77,7 @@ Identifier : name
 | mysqlprotocolversion | No | double |
 | mysqlservercapabilities | No | double |
 | mysqlserverversion | No | string |
+| name | No | string |
 | netmask | No | ip_mask |
 | netprofile | No | netprofile.name |
 | newservicerequest | No | double |

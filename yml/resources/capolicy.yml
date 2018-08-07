@@ -1,12 +1,13 @@
 scope:                                    ca
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 caaction.name
   undefaction:                            string
   comment:                                string
   logaction:                              string
+key:
+  - name
 update:
   - rule
   - action

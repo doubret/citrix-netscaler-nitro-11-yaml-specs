@@ -1,6 +1,10 @@
 scope:                                    videooptimization
-key:
-  name:                                   labelname
 fields:
+  labelname:                              string
   policylabeltype:                        (videoopt_req|videoopt_res)
   comment:                                string
+key:
+  - name
+operations:
+  rename:                                 true
+  update:                                 true

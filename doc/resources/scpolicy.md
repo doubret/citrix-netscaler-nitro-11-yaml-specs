@@ -2,13 +2,15 @@
 
 Spec for **scpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/sure-connect/scpolicy/scpolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,12 +30,12 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | action | No | string |
 | altcontentpath | No | ACS, NS, NOACTION |
 | altcontentsvcname | No | string |
 | delay | No | double |
 | maxconn | No | double |
+| name | No | string |
 | rule | No | string |
 | url | No | string |
 

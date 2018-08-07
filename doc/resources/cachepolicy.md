@@ -2,13 +2,15 @@
 
 Spec for **cachepolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/integrated-caching/cachepolicy/cachepolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : policyname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : policyname
 
 | Name | Update | Type |
 |----|----|----|
-| policyname | No | string |
 | action | No | CACHE, NOCACHE, MAY_CACHE, MAY_NOCACHE, INVAL |
 | invalgroups | No | cachecontentgroup.name[] |
 | invalobjects | No | cachecontentgroup.name[] |
+| policyname | No | string |
 | rule | No | string |
 | storeingroup | No | cachecontentgroup.name |
 | undefaction | No | NOCACHE, RESET |

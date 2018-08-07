@@ -2,13 +2,15 @@
 
 Spec for **cmppolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/compression/cmppolicy/cmppolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 

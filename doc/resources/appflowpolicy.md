@@ -2,13 +2,15 @@
 
 Spec for **appflowpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/appflow/appflowpolicy/appflowpolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | action | No | appflowaction.name |
 | comment | No | string |
+| name | No | string |
 | rule | No | string |
 | undefaction | No | appflowaction.name |
 

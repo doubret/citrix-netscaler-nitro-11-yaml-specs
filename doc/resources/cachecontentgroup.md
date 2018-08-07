@@ -2,13 +2,15 @@
 
 Spec for **cachecontentgroup** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/integrated-caching/cachecontentgroup/cachecontentgroup/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | absexpiry | No | string[] |
 | absexpirygmt | No | string[] |
 | alwaysevalpolicies | No | YES, NO |
@@ -53,6 +54,7 @@ Identifier : name
 | memlimit | No | double |
 | minhits | No | int |
 | minressize | No | double |
+| name | No | string |
 | persistha | No | YES, NO |
 | pinned | No | YES, NO |
 | polleverytime | No | YES, NO |

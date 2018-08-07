@@ -1,5 +1,6 @@
 scope:                                    transform
-key:
-  name:                                   labelname
 fields:
+  labelname:                              string
   policylabeltype:                        (http_req)
+key:
+  - name

@@ -2,13 +2,15 @@
 
 Spec for **caaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/ca/caaction/caaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | accumressize | No | double |
 | comment | No | string |
 | lbvserver | No | string |
+| name | No | string |
 | type | No | nolookup, lookup, noop |
 

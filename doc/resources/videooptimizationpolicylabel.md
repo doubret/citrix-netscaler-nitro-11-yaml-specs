@@ -2,13 +2,15 @@
 
 Spec for **videooptimizationpolicylabel** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/videooptimization/videooptimizationpolicylabel/videooptimizationpolicylabel/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : labelname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -28,7 +30,7 @@ Identifier : labelname
 
 | Name | Update | Type |
 |----|----|----|
-| labelname | No | string |
 | comment | No | string |
+| labelname | No | string |
 | policylabeltype | No | videoopt_req, videoopt_res |
 

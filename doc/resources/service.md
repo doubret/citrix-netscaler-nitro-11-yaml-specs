@@ -2,13 +2,15 @@
 
 Spec for **service** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/basic/service/service/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | accessdown | No | YES, NO |
 | appflowlog | No | ENABLED, DISABLED |
 | cacheable | No | YES, NO |
@@ -52,6 +53,7 @@ Identifier : name
 | maxreq | No | double |
 | monconnectionclose | No | RESET, FIN |
 | monthreshold | No | double |
+| name | No | string |
 | netprofile | No | string |
 | pathmonitor | No | YES, NO |
 | pathmonitorindv | No | YES, NO |

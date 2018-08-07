@@ -1,11 +1,12 @@
 scope:                                    appflow
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   comment:                                string
   action:                                 appflowaction.name
   undefaction:                            appflowaction.name
+key:
+  - name
 update:
   - rule
   - action

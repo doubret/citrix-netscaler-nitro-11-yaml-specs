@@ -2,13 +2,15 @@
 
 Spec for **lbgroup** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbgroup/lbgroup/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | backuppersistencetimeout | No | double |
 | cookiedomain | No | string |
 | cookiename | No | string |
+| name | No | string |
 | persistencebackup | No | SOURCEIP, NONE |
 | persistencetype | No | SOURCEIP, COOKIEINSERT, RULE, NONE |
 | persistmask | No | string |

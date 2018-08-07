@@ -1,9 +1,10 @@
 scope:                                    front-end-optimization
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 feoaction.name
+key:
+  - name
 update:
   - rule
   - action

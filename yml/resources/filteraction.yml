@@ -1,12 +1,13 @@
 scope:                                    filter
-key:
-  name:                                   name
 fields:
+  name:                                   string
   qual:                                   (reset|add|corrupt|forward|errorcode|drop)
   value:                                  string
   respcode:                               double
   page:                                   string
   servicename:                            service.name
+key:
+  - name
 update:
   - servicename
   - value

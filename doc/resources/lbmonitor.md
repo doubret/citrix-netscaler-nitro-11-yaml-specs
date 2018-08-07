@@ -2,15 +2,16 @@
 
 Spec for **lbmonitor** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbmonitor/lbmonitor/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : monitorname
-Additionnal fields :
-- type
+| Name | Type |
+|----|----|
+| monitorname | string |
+| type | PING, TCP, HTTP, TCP-ECV, HTTP-ECV, UDP-ECV, DNS, FTP, LDNS-PING, LDNS-TCP, LDNS-DNS, RADIUS, USER, HTTP-INLINE, SIP-UDP, SIP-TCP, LOAD, FTP-EXTENDED, SMTP, SNMP, NNTP, MYSQL, MYSQL-ECV, MSSQL-ECV, ORACLE-ECV, LDAP, POP3, CITRIX-XML-SERVICE, CITRIX-WEB-INTERFACE, DNS-TCP, RTSP, ARP, CITRIX-AG, CITRIX-AAC-LOGINPAGE, CITRIX-AAC-LAS, CITRIX-XD-DDC, ND6, CITRIX-WI-EXTENDED, DIAMETER, RADIUS_ACCOUNTING, STOREFRONT, APPC, SMPP, CITRIX-XNC-ECV, CITRIX-XDM, CITRIX-STA-SERVICE, CITRIX-STA-SERVICE-NHOP |
 
 ## Operations
 
@@ -30,7 +31,6 @@ Additionnal fields :
 
 | Name | Update | Type |
 |----|----|----|
-| monitorname | No | string |
 | state | No | ENABLED, DISABLED |
 | action | No | NONE, LOG, DOWN |
 | alertretries | No | int |
@@ -65,6 +65,7 @@ Additionnal fields :
 | lrtm | No | string |
 | maxforwards | No | double |
 | metrictable | No | string |
+| monitorname | No | string |
 | mssqlprotocolversion | No | string |
 | netprofile | No | string |
 | oraclesid | No | string |

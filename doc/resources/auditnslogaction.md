@@ -2,13 +2,15 @@
 
 Spec for **auditnslogaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/audit/auditnslogaction/auditnslogaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | acl | No | ENABLED, DISABLED |
 | alg | No | ENABLED, DISABLED |
 | appflowexport | No | ENABLED, DISABLED |
@@ -37,6 +38,7 @@ Identifier : name
 | logfacility | No | LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7 |
 | loglevel | No | ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE[] |
 | lsn | No | ENABLED, DISABLED |
+| name | No | string |
 | serverdomainname | No | string |
 | serverip | No | ip |
 | serverport | No | int |

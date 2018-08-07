@@ -1,10 +1,11 @@
 scope:                                    transform
-key:
-  name:                                   name
 fields:
+  name:                                   string
   type:                                   (URL)
   onlytransformabsurlinbody:              (ON|OFF)
   comment:                                string
+key:
+  - name
 update:
   - type
   - onlytransformabsurlinbody

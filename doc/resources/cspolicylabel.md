@@ -2,13 +2,15 @@
 
 Spec for **cspolicylabel** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/content-switching/cspolicylabel/cspolicylabel/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : labelname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -28,6 +30,6 @@ Identifier : labelname
 
 | Name | Update | Type |
 |----|----|----|
-| labelname | No | string |
 | cspolicylabeltype | No | HTTP, TCP, RTSP, SSL, SSL_TCP, UDP, DNS, SIP_UDP, SIP_TCP, ANY, RADIUS, RDP, MYSQL, MSSQL, ORACLE, DIAMETER, SSL_DIAMETER, FTP, DNS_TCP, SMPP |
+| labelname | No | string |
 

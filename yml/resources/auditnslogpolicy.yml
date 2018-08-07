@@ -1,9 +1,10 @@
 scope:                                    audit
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 auditnslogaction.name
+key:
+  - name
 update:
   - rule
   - action

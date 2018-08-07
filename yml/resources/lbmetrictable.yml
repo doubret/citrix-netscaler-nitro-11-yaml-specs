@@ -1,3 +1,5 @@
 scope:                                    load-balancing
+fields:
+  metrictable:                            string
 key:
-  name:                                   metrictable
+  - metrictable

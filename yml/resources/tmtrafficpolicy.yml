@@ -1,9 +1,10 @@
 scope:                                    traffic-management
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 tmtrafficaction.name
+key:
+  - name
 update:
   - rule
   - action

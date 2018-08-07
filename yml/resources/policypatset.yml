@@ -1,6 +1,7 @@
 scope:                                    policy
-key:
-  name:                                   name
 fields:
+  name:                                   string
   indextype:                              (Auto-generated|User-defined)
   comment:                                string
+key:
+  - name

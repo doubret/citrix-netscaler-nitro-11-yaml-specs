@@ -2,13 +2,15 @@
 
 Spec for **nshttpprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/ns/nshttpprofile/nshttpprofile/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | adpttimeout | No | ENABLED, DISABLED |
 | altsvc | No | ENABLED, DISABLED |
 | apdexcltresptimethreshold | No | double |
@@ -53,6 +54,7 @@ Identifier : name
 | maxreq | No | double |
 | maxreusepool | No | double |
 | minreusepool | No | double |
+| name | No | string |
 | persistentetag | No | ENABLED, DISABLED |
 | reqtimeout | No | double |
 | reqtimeoutaction | No | string |

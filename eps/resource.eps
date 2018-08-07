@@ -2,18 +2,16 @@
 
 Spec for **<%= $name %>** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/<%= $resource.Scope %>/<%= $name %>/<%= $name %>/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : <%= $resource.Key.Name %>
-<% if($resource.Key.Fields) { -%>
-Additionnal fields :
-<% foreach($field in $resource.Key.Fields) { -%>
-- <%= $field %>
-<% } -%>
+| Name | Type |
+|----|----|
+<% foreach($field in $resource.Key) { -%>
+| <%= $field %> | <%= ($resource.Fields[$field] -Replace '\(' -Replace '\)') -Replace '\|', ', ' %> |
 <% } -%>
 
 ## Operations
@@ -35,11 +33,10 @@ Additionnal fields :
 <% if ($resource.Fields) { -%>
 | Name | Update | Type |
 |----|----|----|
-| <%= $resource.Key.Name %> | No | string |
 <% if($resource.State) { -%>
 | <%= $resource.State %> | No | ENABLED, DISABLED |
 <% } -%>
 <% foreach($field in $resource.Fields.GetEnumerator() | Sort -Property Name) { -%>
-| <%= $field.Name %> | <%= if($field -in $resource.Update) { "Yes" } else { "No" }%> | <%= ($field.Value -Replace '\(' -Replace '\)') -Replace '\|', ', ' %> |
+| <%= $field.Name %> | <%= if(($field -in $resource.Update) -or ($field -in $resource.Key)) { "Yes" } else { "No" }%> | <%= ($field.Value -Replace '\(' -Replace '\)') -Replace '\|', ', ' %> |
 <% } -%>
 <% } -%>

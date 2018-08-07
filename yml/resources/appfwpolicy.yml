@@ -1,12 +1,13 @@
 scope:                                    application-firewall
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   # todo
   profilename:                            string
   comment:                                string
   logaction:                              string
+key:
+  - name
 update:
   - rule
   - profilename

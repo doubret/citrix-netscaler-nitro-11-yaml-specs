@@ -2,13 +2,15 @@
 
 Spec for **lbwlm** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbwlm/lbwlm/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : wlmname
+| Name | Type |
+|----|----|
+| wlmname | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : wlmname
 
 | Name | Update | Type |
 |----|----|----|
-| wlmname | No | string |
 | ipaddress | No | ip |
 | katimeout | No | double |
 | lbuid | No | string |
 | port | No | int |
+| wlmname | No | string |
 

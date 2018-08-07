@@ -2,13 +2,15 @@
 
 Spec for **auditsyslogaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/audit/auditsyslogaction/auditsyslogaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | acl | No | ENABLED, DISABLED |
 | alg | No | ENABLED, DISABLED |
 | appflowexport | No | ENABLED, DISABLED |
@@ -40,6 +41,7 @@ Identifier : name
 | loglevel | No | ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE[] |
 | lsn | No | ENABLED, DISABLED |
 | maxlogdatasizetohold | No | double |
+| name | No | string |
 | netprofile | No | netprofile.name |
 | serverdomainname | No | string |
 | serverip | No | ip |

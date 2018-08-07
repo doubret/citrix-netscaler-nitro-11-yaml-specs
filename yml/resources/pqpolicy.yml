@@ -1,12 +1,13 @@
 scope:                                    priority-queuing
-key:
-  name:                                   policyname
 fields:
+  policyname:                             string
   rule:                                   string
   priority:                               double
   weight:                                 double
   qdepth:                                 double
   polqdepth:                              double
+key:
+  - name
 update:
   - weight
   - qdepth

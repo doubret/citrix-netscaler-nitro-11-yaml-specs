@@ -2,13 +2,15 @@
 
 Spec for **transformpolicylabel** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/transform/transformpolicylabel/transformpolicylabel/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : labelname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 

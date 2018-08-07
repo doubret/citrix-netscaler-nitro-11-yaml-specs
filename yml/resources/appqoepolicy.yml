@@ -1,9 +1,10 @@
 scope:                                    appqoe
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 appqoeaction.name
+key:
+  - name
 update:
   - rule
   - action

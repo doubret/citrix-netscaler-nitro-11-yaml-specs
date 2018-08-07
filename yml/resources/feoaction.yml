@@ -1,7 +1,6 @@
 scope:                                    front-end-optimization
-key:
-  name:                                   name
 fields:
+  name:                                   string
   pageextendcache:                        bool
   cachemaxage:                            double
   imgshrinktoattrib:                      bool
@@ -24,6 +23,8 @@ fields:
   domainsharding:                         string
   dnsshards:                              string[]
   clientsidemeasurements:                 bool
+key:
+  - name
 update:
   - pageextendcache
   - cachemaxage

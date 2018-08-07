@@ -2,13 +2,15 @@
 
 Spec for **cachepolicylabel** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/integrated-caching/cachepolicylabel/cachepolicylabel/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : labelname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -28,6 +30,6 @@ Identifier : labelname
 
 | Name | Update | Type |
 |----|----|----|
-| labelname | No | string |
 | evaluates | No | REQ, RES, MSSQL_REQ, MSSQL_RES, MYSQL_REQ, MYSQL_RES |
+| labelname | No | string |
 

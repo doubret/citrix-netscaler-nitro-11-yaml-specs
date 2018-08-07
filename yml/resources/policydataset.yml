@@ -1,7 +1,8 @@
 scope:                                    policy
-key:
-  name:                                   name
 fields:
+  name:                                   string
   type:                                   (ipv4|number|ipv6|ulong|double|mac)
   indextype:                              (Auto-generated|User-defined)
   comment:                                string
+key:
+  - name

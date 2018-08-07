@@ -2,13 +2,15 @@
 
 Spec for **lbmetrictable** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbmetrictable/lbmetrictable/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : metrictable
+| Name | Type |
+|----|----|
+| metrictable | string |
 
 ## Operations
 
@@ -26,4 +28,7 @@ Identifier : metrictable
 
 ## Fields
 
+| Name | Update | Type |
+|----|----|----|
+| metrictable | No | string |
 

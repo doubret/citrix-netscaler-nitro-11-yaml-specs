@@ -1,11 +1,12 @@
 scope:                                    transform
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   profilename:                            transformprofile.name
   comment:                                string
   logaction:                              string
+key:
+  - name
 update:
   - rule
   - profilename

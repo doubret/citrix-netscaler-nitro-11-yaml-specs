@@ -1,11 +1,12 @@
 scope:                                    compression
-key:
-  name:                                   name
 fields:
+  name:                                   string
   varyheadervalue:                        string
   addvaryheader:                          (GLOBAL|DISABLED|ENABLED)
   cmptype:                                (compress|gzip|deflate|nocompress)
   deltatype:                              (PERURL|PERPOLICY)
+key:
+  - name
 update:
   - cmptype
   - addvaryheader

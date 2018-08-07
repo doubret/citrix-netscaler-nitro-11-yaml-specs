@@ -2,13 +2,15 @@
 
 Spec for **rewriteaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/rewrite/rewriteaction/rewriteaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | bypasssafetycheck | No | YES, NO |
 | comment | No | string |
+| name | No | string |
 | pattern | No | string |
 | refinesearch | No | string |
 | search | No | string |

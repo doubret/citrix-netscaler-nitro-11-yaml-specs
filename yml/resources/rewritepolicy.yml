@@ -1,12 +1,13 @@
 scope:                                    rewrite
-key:
-  name:                                   name
 fields:
+  name:                                   string
   rule:                                   string
   action:                                 rewriteaction.name
   undefaction:                            rewriteaction.name
   comment:                                string
   logaction:                              string
+key:
+  - name
 update:
  - rule
  - action

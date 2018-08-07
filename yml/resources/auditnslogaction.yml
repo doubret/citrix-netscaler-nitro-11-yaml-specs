@@ -1,7 +1,6 @@
 scope:                                    audit
-key:
-  name:                                   name
 fields:
+  name:                                   string
   serverip:                               ip
   serverdomainname:                       string
   domainresolveretry:                     int
@@ -18,6 +17,8 @@ fields:
   alg:                                    (ENABLED|DISABLED)
   subscriberlog:                          (ENABLED|DISABLED)
   sslinterception:                        (ENABLED|DISABLED)
+key:
+  - name
 update:
   - serverip
   - serverdomainname

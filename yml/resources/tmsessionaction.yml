@@ -1,7 +1,6 @@
 scope:                                    traffic-management
-key:
-  name:                                   name
 fields:
+  name:                                   string
   sesstimeout:                            double
   defaultauthorizationaction:             (ALLOW|DENY)
   sso:                                    (ON|OFF)
@@ -12,6 +11,8 @@ fields:
   persistentcookie:                       (YES|NO)
   persistentcookievalidity:               double
   homepage:                               string
+key:
+  - name
 update:
   - sesstimeout
   - defaultauthorizationaction

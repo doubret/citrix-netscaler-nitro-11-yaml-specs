@@ -2,13 +2,15 @@
 
 Spec for **policyexpression** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/policy/policyexpression/policyexpression/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | clientsecuritymessage | No | string |
 | comment | No | string |
 | description | No | string |
+| name | No | string |
 | value | No | string |
 

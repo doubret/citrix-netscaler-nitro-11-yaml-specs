@@ -1,5 +1,6 @@
 scope:                                    compression
-key:
-  name:                                   labelname
 fields:
+  labelname:                              string
   type:                                   (REQ|RES)
+key:
+  - name

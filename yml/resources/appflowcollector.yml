@@ -1,10 +1,11 @@
 scope:                                    appflow
-key:
-  name:                                   name
 fields:
+  name:                                   string
   ipaddress:                              ip
   port:                                   int
   netprofile:                             netprofile.name
+key:
+  - name
 update:
   - ipaddress
   - port

@@ -2,13 +2,15 @@
 
 Spec for **nstcpprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/ns/nstcpprofile/nstcpprofile/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | ackaggregation | No | ENABLED, DISABLED |
 | ackonpush | No | ENABLED, DISABLED |
 | buffersize | No | double |
@@ -61,6 +62,7 @@ Identifier : name
 | mptcpsessiontimeout | No | double |
 | mss | No | double |
 | nagle | No | ENABLED, DISABLED |
+| name | No | string |
 | oooqsize | No | double |
 | pktperretx | No | double |
 | rateqmax | No | double |

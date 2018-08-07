@@ -1,7 +1,6 @@
 scope:                                    sure-connect
-key:
-  name:                                   name
 fields:
+  name:                                   string
   url:                                    string
   rule:                                   string
   delay:                                  double
@@ -9,6 +8,8 @@ fields:
   action:                                 string
   altcontentsvcname:                      string
   altcontentpath:                         (ACS|NS|NOACTION)
+key:
+  - name
 update:
   - url
   - rule

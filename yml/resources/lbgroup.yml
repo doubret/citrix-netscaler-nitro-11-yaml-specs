@@ -1,7 +1,6 @@
 scope:                                    load-balancing
-key:
-  name:                                   name
 fields:
+  name:                                   string
   backuppersistencetimeout:               double
   persistmask:                            string
   cookiename:                             string
@@ -12,6 +11,8 @@ fields:
   persistencetype:                        (SOURCEIP|COOKIEINSERT|RULE|NONE)
   persistencebackup:                      (SOURCEIP|NONE)
   usevserverpersistency:                  (ENABLED|DISABLED)
+key:
+  - name
 update:
   - persistencetype
   - persistencebackup

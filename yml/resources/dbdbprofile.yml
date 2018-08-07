@@ -1,12 +1,13 @@
 scope:                                    db
-key:
-  name:                                   name
 fields:
+  name:                                   string
   interpretquery:                         (YES|NO)
   stickiness:                             (YES|NO)
   kcdaccount:                             string
   conmultiplex:                           (ENABLED|DISABLED)
   enablecachingconmuxoff:                 (ENABLED|DISABLED)
+key:
+  - name
 update:
   - interpretquery
   - stickiness

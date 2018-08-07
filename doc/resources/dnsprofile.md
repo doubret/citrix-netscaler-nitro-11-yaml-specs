@@ -2,13 +2,15 @@
 
 Spec for **dnsprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/domain-name-service/dnsprofile/dnsprofile/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : dnsprofilename
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 
@@ -28,13 +30,13 @@ Identifier : dnsprofilename
 
 | Name | Update | Type |
 |----|----|----|
-| dnsprofilename | No | string |
 | cacheecsresponses | No | ENABLED, DISABLED |
 | cachenegativeresponses | No | ENABLED, DISABLED |
 | cacherecords | No | ENABLED, DISABLED |
 | dnsanswerseclogging | No | ENABLED, DISABLED |
 | dnserrorlogging | No | ENABLED, DISABLED |
 | dnsextendedlogging | No | ENABLED, DISABLED |
+| dnsprofilename | No | string |
 | dnsquerylogging | No | ENABLED, DISABLED |
 | dropmultiqueryrequest | No | ENABLED, DISABLED |
 

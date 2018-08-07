@@ -1,13 +1,14 @@
 scope:                                    appflow
-key:
-  name:                                   name
 fields:
+  name:                                   string
   collectors:                             appflowcollector.name[]
   clientsidemeasurements:                 (ENABLED|DISABLED)
   pagetracking:                           (ENABLED|DISABLED)
   webinsight:                             (ENABLED|DISABLED)
   securityinsight:                        (ENABLED|DISABLED)
   comment:                                string
+key:
+  - name
 update:
   - collectors
   - clientsidemeasurements

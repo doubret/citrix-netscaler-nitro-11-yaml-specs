@@ -1,8 +1,7 @@
 scope:                                    basic
-key:
-  name:                                   name
 state:                                    state
 fields:
+  name:                                   string
   comment:                                string
   domain:                                 string
   domainresolveretry:                     int
@@ -11,6 +10,8 @@ fields:
   translationip:                          ip
   translationmask:                        ip_mask
   ipv6address:                            (YES|NO)
+key:
+  - name
 update:
   - comment
   - domainresolveretry

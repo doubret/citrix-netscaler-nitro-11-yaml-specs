@@ -2,13 +2,15 @@
 
 Spec for **csvserver** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/content-switching/csvserver/csvserver/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,7 +30,6 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | state | No | ENABLED, DISABLED |
 | appflowlog | No | ENABLED, DISABLED |
 | authentication | No | ON, OFF |
@@ -59,6 +60,7 @@ Identifier : name
 | mysqlprotocolversion | No | double |
 | mysqlservercapabilities | No | double |
 | mysqlserverversion | No | string |
+| name | No | string |
 | netprofile | No | string |
 | oracleserverversion | No | 10G, 11G |
 | port | No | int |

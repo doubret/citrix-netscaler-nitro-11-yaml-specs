@@ -1,7 +1,6 @@
 scope:                                    traffic-management
-key:
-  name:                                   name
 fields:
+  name:                                   string
   apptimeout:                             double
   sso:                                    (ON|OFF)
   formssoaction:                          string
@@ -13,6 +12,8 @@ fields:
   forcedtimeoutval:                       double
   userexpression:                         string
   passwdexpression:                       string
+key:
+  - name
 update:
   - apptimeout
   - sso

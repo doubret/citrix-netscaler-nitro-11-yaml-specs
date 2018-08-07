@@ -1,10 +1,11 @@
 scope:                                    videooptimization
-key:
-  name:                                   name
 fields:
+  name:                                   string
   type:                                   (clear_text_pd|clear_text_abr|encrypted_abr|trigger_enc_abr|optimize_abr)
   rate:                                   int
   comment:                                string
+key:
+  - name
 update:
   - type
   - rate

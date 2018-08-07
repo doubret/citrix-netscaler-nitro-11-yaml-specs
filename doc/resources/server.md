@@ -2,13 +2,15 @@
 
 Spec for **server** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/basic/server/server/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,13 +30,13 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | state | No | ENABLED, DISABLED |
 | comment | No | string |
 | domain | No | string |
 | domainresolveretry | No | int |
 | ipaddress | No | ip |
 | ipv6address | No | YES, NO |
+| name | No | string |
 | td | No | double |
 | translationip | No | ip |
 | translationmask | No | ip_mask |

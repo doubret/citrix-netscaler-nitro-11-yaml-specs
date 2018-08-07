@@ -1,7 +1,6 @@
 scope:                                    ns
-key:
-  name:                                   name
 fields:
+  name:                                   string
   ws:                                     (ENABLED|DISABLED)
   sack:                                   (ENABLED|DISABLED)
   wsval:                                  double
@@ -51,6 +50,8 @@ fields:
   rateqmax:                               double
   drophalfclosedconnontimeout:            (ENABLED|DISABLED)
   dropestconnontimeout:                   (ENABLED|DISABLED)
+key:
+  - name
 update:
   - ws
   - sack

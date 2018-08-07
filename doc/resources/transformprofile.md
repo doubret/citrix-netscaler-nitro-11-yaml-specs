@@ -2,13 +2,15 @@
 
 Spec for **transformprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/transform/transformprofile/transformprofile/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,8 +30,8 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | comment | No | string |
+| name | No | string |
 | onlytransformabsurlinbody | No | ON, OFF |
 | type | No | URL |
 

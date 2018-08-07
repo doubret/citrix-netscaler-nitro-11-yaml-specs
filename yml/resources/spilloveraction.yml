@@ -1,5 +1,6 @@
 scope:                                    spillover
-key:
-  name:                                   name
 fields:
+  name:                                   string
   action:                                 (SPILLOVER)
+key:
+  - name

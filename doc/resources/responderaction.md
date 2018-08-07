@@ -2,13 +2,15 @@
 
 Spec for **responderaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/responder/responderaction/responderaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | bypasssafetycheck | No | YES, NO |
 | comment | No | string |
 | htmlpage | No | string |
+| name | No | string |
 | reasonphrase | No | string |
 | responsestatuscode | No | double |
 | target | No | string |

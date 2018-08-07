@@ -2,13 +2,15 @@
 
 Spec for **tmsessionaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/traffic-management/tmsessionaction/tmsessionaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,11 +30,11 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | defaultauthorizationaction | No | ALLOW, DENY |
 | homepage | No | string |
 | httponlycookie | No | YES, NO |
 | kcdaccount | No | string |
+| name | No | string |
 | persistentcookie | No | YES, NO |
 | persistentcookievalidity | No | double |
 | sesstimeout | No | double |

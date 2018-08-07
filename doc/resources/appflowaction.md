@@ -2,13 +2,15 @@
 
 Spec for **appflowaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/appflow/appflowaction/appflowaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | clientsidemeasurements | No | ENABLED, DISABLED |
 | collectors | No | appflowcollector.name[] |
 | comment | No | string |
+| name | No | string |
 | pagetracking | No | ENABLED, DISABLED |
 | securityinsight | No | ENABLED, DISABLED |
 | webinsight | No | ENABLED, DISABLED |

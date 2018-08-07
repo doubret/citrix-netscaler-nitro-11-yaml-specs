@@ -2,13 +2,15 @@
 
 Spec for **tmtrafficaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/traffic-management/tmtrafficaction/tmtrafficaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,13 +30,13 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | apptimeout | No | double |
 | forcedtimeout | No | START, STOP, RESET |
 | forcedtimeoutval | No | double |
 | formssoaction | No | string |
 | initiatelogout | No | ON, OFF |
 | kcdaccount | No | string |
+| name | No | string |
 | passwdexpression | No | string |
 | persistentcookie | No | ON, OFF |
 | samlssoprofile | No | string |

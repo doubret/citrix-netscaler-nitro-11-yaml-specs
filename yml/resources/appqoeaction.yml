@@ -1,7 +1,6 @@
 scope:                                    appqoe
-key:
-  name:                                   name
 fields:
+  name:                                   string
   priority:                               (HIGH|MEDIUM|LOW|LOWEST)
   respondwith:                            (ACS|NS)
   customfile:                             string
@@ -14,6 +13,8 @@ fields:
   dostrigexpression:                      string
   dosaction:                              (SimpleResponse|HICResponse)
   tcpprofile:                             nstcpprofile.name
+key:
+  - name
 update:
   - priority
   - altcontentsvcname

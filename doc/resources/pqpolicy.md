@@ -2,13 +2,15 @@
 
 Spec for **pqpolicy** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/priority-queuing/pqpolicy/pqpolicy/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : policyname
+| Name | Type |
+|----|----|
+| name |  |
 
 ## Operations
 

@@ -1,7 +1,6 @@
 scope:                                    transform
-key:
-  name:                                   name
 fields:
+  name:                                   string
   profilename:                            transformprofile.name
   priority:                               double
   state:                                  (ENABLED|DISABLED)
@@ -12,6 +11,8 @@ fields:
   cookiedomainfrom:                       string
   cookiedomaininto:                       string
   comment:                                string
+key:
+  - name
 update:
   - priority
   - requrlfrom

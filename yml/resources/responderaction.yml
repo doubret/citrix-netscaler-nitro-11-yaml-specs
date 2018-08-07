@@ -1,7 +1,6 @@
 scope:                                    responder
-key:
-  name:                                   name
 fields:
+  name:                                   string
   type:                                   (noop|respondwith|redirect|respondwithhtmlpage|sqlresponse_ok|sqlresponse_error)
   target:                                 string
   htmlpage:                               string
@@ -9,6 +8,8 @@ fields:
   comment:                                string
   responsestatuscode:                     double
   reasonphrase:                           string
+key:
+  - name
 update:
   - target
   - bypasssafetycheck

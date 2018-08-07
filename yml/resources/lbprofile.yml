@@ -1,13 +1,14 @@
 scope:                                    load-balancing
-key:
-  name:                                   lbprofilename
 fields:
+  lbprofilename:                          string
   cookiepassphrase:                       string
   dbslb:                                  (ENABLED|DISABLED)
   processlocal:                           (ENABLED|DISABLED)
   httponlycookieflag:                     (ENABLED|DISABLED)
   usesecuredpersistencecookie:            (ENABLED|DISABLED)
   useencryptedpersistencecookie:          (ENABLED|DISABLED)
+key:
+  - lbprofilename
 update:
   - cookiepassphrase
   - dbslb

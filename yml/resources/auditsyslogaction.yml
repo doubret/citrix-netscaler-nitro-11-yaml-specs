@@ -1,7 +1,6 @@
 scope:                                    audit
-key:
-  name:                                   name
 fields:
+  name:                                   string
   serverip:                               ip
   serverdomainname:                       string
   domainresolveretry:                     int
@@ -24,6 +23,8 @@ fields:
   maxlogdatasizetohold:                   double
   dns:                                    (ENABLED|DISABLED)
   netprofile:                             netprofile.name
+key:
+  - name
 update:
   - serverip
   - serverdomainname

@@ -1,7 +1,6 @@
 scope:                                    ns
-key:
-  name:                                   name
 fields:
+  name:                                   string
   reusepooltimeout:                       double
   maxheaderlen:                           double
   minreusepool:                           double
@@ -34,6 +33,8 @@ fields:
   http2:                                  (ENABLED|DISABLED)
   http2direct:                            (ENABLED|DISABLED)
   altsvc:                                 (ENABLED|DISABLED)
+key:
+  - name
 update:
   - dropinvalreqs
   - markhttp09inval

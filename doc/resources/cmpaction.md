@@ -2,13 +2,15 @@
 
 Spec for **cmpaction** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/compression/cmpaction/cmpaction/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,9 +30,9 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | addvaryheader | No | GLOBAL, DISABLED, ENABLED |
 | cmptype | No | compress, gzip, deflate, nocompress |
 | deltatype | No | PERURL, PERPOLICY |
+| name | No | string |
 | varyheadervalue | No | string |
 

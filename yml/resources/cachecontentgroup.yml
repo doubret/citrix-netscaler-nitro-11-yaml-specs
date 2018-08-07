@@ -1,7 +1,6 @@
 scope:                                    integrated-caching
-key:
-  name:                                   name
 fields:
+  name:                                   string
   weakposrelexpiry:                       double
   heurexpiryparam:                        double
   relexpiry:                              double
@@ -40,6 +39,8 @@ fields:
   hitselector:                            string
   invalselector:                          string
   type:                                   (HTTP|MYSQL|MSSQL)
+key:
+  - name
 update:
   - weakposrelexpiry
   - heurexpiryparam

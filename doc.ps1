@@ -27,10 +27,11 @@ $resources = @{}
 $bindings = @{}
 
 foreach($resource in Get-ChildItem $ymlResources -File) {
-  $yaml = Get-Content -Raw $resource.FullName | ConvertFrom-Yaml -Ordered
   $name = $resource.Name -Replace '\.yml'
 
   Write-Host $name
+
+  $yaml = Get-Content -Raw $resource.FullName | ConvertFrom-Yaml -Ordered
 
   $resources[$name] = $yaml
 
@@ -38,10 +39,11 @@ foreach($resource in Get-ChildItem $ymlResources -File) {
 }
 
 foreach($binding in Get-ChildItem $ymlBindings -File) {
-  $yaml = Get-Content -Raw $binding.FullName | ConvertFrom-Yaml -Ordered
   $name = $binding.Name -Replace '\.yml'
 
   Write-Host $name
+
+  $yaml = Get-Content -Raw $binding.FullName | ConvertFrom-Yaml -Ordered
 
   $bindings[$name] = $yaml
 

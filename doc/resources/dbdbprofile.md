@@ -2,13 +2,15 @@
 
 Spec for **dbdbprofile** resource - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/db/dbdbprofile/dbdbprofile/)
 
-- [Identifier](#identifier)
+- [Key](#key)
 - [Operations](#operations)
 - [Fields](#fields)
 
-## Identifier
+## Key
 
-Identifier : name
+| Name | Type |
+|----|----|
+| name | string |
 
 ## Operations
 
@@ -28,10 +30,10 @@ Identifier : name
 
 | Name | Update | Type |
 |----|----|----|
-| name | No | string |
 | conmultiplex | No | ENABLED, DISABLED |
 | enablecachingconmuxoff | No | ENABLED, DISABLED |
 | interpretquery | No | YES, NO |
 | kcdaccount | No | string |
+| name | No | string |
 | stickiness | No | YES, NO |
 
