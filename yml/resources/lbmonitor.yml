@@ -187,12 +187,9 @@ update:
   - trofsstring
   - sslprofile
 operations:
-  - add
   - get
   - update
   - unset
-  - delete
   - list
   - count
   - enable
-  - disable

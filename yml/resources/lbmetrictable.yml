@@ -4,9 +4,7 @@ fields:
 key:
   - metrictable
 operations:
-  - add
   - get
-  - delete
   - list
   - rename
   - count

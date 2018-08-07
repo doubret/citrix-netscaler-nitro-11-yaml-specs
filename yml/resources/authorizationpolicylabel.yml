@@ -4,9 +4,7 @@ fields:
 key:
   - labelname
 operations:
-  - add
   - get
-  - delete
   - list
   - rename
   - count

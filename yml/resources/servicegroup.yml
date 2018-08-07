@@ -65,11 +65,9 @@ update:
   - netprofile
   - monconnectionclose
 operations:
-  - add
   - get
   - update
   - unset
-  - delete
   - list
   - rename
   - count

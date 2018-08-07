@@ -5,9 +5,7 @@ fields:
 key:
   - name
 operations:
-  - add
   - get
-  - delete
   - list
   - rename
   - count

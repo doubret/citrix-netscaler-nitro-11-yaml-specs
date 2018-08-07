@@ -25,11 +25,9 @@ update:
   - rule
   - usevserverpersistency
 operations:
-  - add
   - get
   - update
   - unset
-  - delete
   - list
   - rename
   - count

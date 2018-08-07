@@ -182,11 +182,9 @@ update:
   - httpsredirecturl
   - retainconnectionsoncluster
 operations:
-  - add
   - get
   - update
   - unset
-  - delete
   - list
   - rename
   - count
