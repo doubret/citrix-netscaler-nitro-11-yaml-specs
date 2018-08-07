@@ -32,9 +32,7 @@ Spec for **csaction** resource - [citrix documentation page](https://developer-d
 |----|----|----|----|
 |comment|No|No|string|
 |name|No|No|string|
-|targetlbvserver|No|No
-|[lbvserver.name](/doc/resources/lbvserver.md)
-|
+|targetlbvserver|No|No|[lbvserver.name](/doc/resources/lbvserver.md)|
 |targetvserver|No|No|string|
 |targetvserverexpr|No|No|string|
 

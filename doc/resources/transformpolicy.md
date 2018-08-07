@@ -33,8 +33,6 @@ Spec for **transformpolicy** resource - [citrix documentation page](https://deve
 |comment|No|No|string|
 |logaction|No|No|string|
 |name|No|No|string|
-|profilename|No|No
-|[transformprofile.name](/doc/resources/transformprofile.md)
-|
+|profilename|No|No|[transformprofile.name](/doc/resources/transformprofile.md)|
 |rule|No|No|string|
 

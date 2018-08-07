@@ -30,9 +30,7 @@ Spec for **feopolicy** resource - [citrix documentation page](https://developer-
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[feoaction.name](/doc/resources/feoaction.md)
-|
+|action|No|No|[feoaction.name](/doc/resources/feoaction.md)|
 |name|No|No|string|
 |rule|No|No|string|
 

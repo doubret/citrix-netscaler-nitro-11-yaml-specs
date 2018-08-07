@@ -31,9 +31,7 @@ Spec for **appflowaction** resource - [citrix documentation page](https://develo
 | Name | Update | Array | Type |
 |----|----|----|----|
 |clientsidemeasurements|No|No|ENABLED, DISABLED|
-|collectors|Yes|No
-|[appflowcollector.name](/doc/resources/appflowcollector.md)
-|
+|collectors|Yes|No|[appflowcollector.name](/doc/resources/appflowcollector.md)|
 |comment|No|No|string|
 |name|No|No|string|
 |pagetracking|No|No|ENABLED, DISABLED|

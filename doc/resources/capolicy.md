@@ -30,9 +30,7 @@ Spec for **capolicy** resource - [citrix documentation page](https://developer-d
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[caaction.name](/doc/resources/caaction.md)
-|
+|action|No|No|[caaction.name](/doc/resources/caaction.md)|
 |comment|No|No|string|
 |logaction|No|No|string|
 |name|No|No|string|

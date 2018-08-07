@@ -34,8 +34,6 @@ Spec for **filteraction** resource - [citrix documentation page](https://develop
 |page|No|No|string|
 |qual|No|No|reset, add, corrupt, forward, errorcode, drop|
 |respcode|No|No|double|
-|servicename|No|No
-|[service.name](/doc/resources/service.md)
-|
+|servicename|No|No|[service.name](/doc/resources/service.md)|
 |value|No|No|string|
 

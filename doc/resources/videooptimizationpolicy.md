@@ -30,9 +30,7 @@ Spec for **videooptimizationpolicy** resource - [citrix documentation page](http
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[videooptimizationaction.name](/doc/resources/videooptimizationaction.md)
-|
+|action|No|No|[videooptimizationaction.name](/doc/resources/videooptimizationaction.md)|
 |comment|No|No|string|
 |logaction|No|No|string|
 |name|No|No|string|

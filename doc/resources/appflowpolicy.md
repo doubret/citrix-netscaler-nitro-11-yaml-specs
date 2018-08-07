@@ -30,13 +30,9 @@ Spec for **appflowpolicy** resource - [citrix documentation page](https://develo
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[appflowaction.name](/doc/resources/appflowaction.md)
-|
+|action|No|No|[appflowaction.name](/doc/resources/appflowaction.md)|
 |comment|No|No|string|
 |name|No|No|string|
 |rule|No|No|string|
-|undefaction|No|No
-|[appflowaction.name](/doc/resources/appflowaction.md)
-|
+|undefaction|No|No|[appflowaction.name](/doc/resources/appflowaction.md)|
 

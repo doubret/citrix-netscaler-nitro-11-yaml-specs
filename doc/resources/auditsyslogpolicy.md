@@ -30,9 +30,7 @@ Spec for **auditsyslogpolicy** resource - [citrix documentation page](https://de
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[auditsyslogaction.name](/doc/resources/auditsyslogaction.md)
-|
+|action|No|No|[auditsyslogaction.name](/doc/resources/auditsyslogaction.md)|
 |name|No|No|string|
 |rule|No|No|string|
 

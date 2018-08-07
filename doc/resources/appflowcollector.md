@@ -32,8 +32,6 @@ Spec for **appflowcollector** resource - [citrix documentation page](https://dev
 |----|----|----|----|
 |ipaddress|No|No|ip|
 |name|No|No|string|
-|netprofile|No|No
-|[netprofile.name](/doc/resources/netprofile.md)
-|
+|netprofile|No|No|[netprofile.name](/doc/resources/netprofile.md)|
 |port|No|No|int|
 

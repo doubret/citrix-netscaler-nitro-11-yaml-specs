@@ -42,18 +42,14 @@ Spec for **servicegroup** resource - [citrix documentation page](https://develop
 |comment|No|No|string|
 |downstateflush|No|No|ENABLED, DISABLED|
 |healthmonitor|No|No|YES, NO|
-|httpprofilename|No|No
-|[nshttpprofile.name](/doc/resources/nshttpprofile.md)
-|
+|httpprofilename|No|No|[nshttpprofile.name](/doc/resources/nshttpprofile.md)|
 |maxbandwidth|No|No|double|
 |maxclient|No|No|double|
 |maxreq|No|No|double|
 |memberport|No|No|int|
 |monconnectionclose|No|No|RESET, FIN|
 |monthreshold|No|No|double|
-|netprofile|No|No
-|[netprofile.name](/doc/resources/netprofile.md)
-|
+|netprofile|No|No|[netprofile.name](/doc/resources/netprofile.md)|
 |pathmonitor|No|No|YES, NO|
 |pathmonitorindv|No|No|YES, NO|
 |rtspsessionidremap|No|No|ON, OFF|
@@ -64,9 +60,7 @@ Spec for **servicegroup** resource - [citrix documentation page](https://develop
 |state|No|No|ENABLED, DISABLED|
 |svrtimeout|No|No|int|
 |tcpb|No|No|YES, NO|
-|tcpprofilename|No|No
-|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
-|
+|tcpprofilename|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 |td|No|No|double|
 |useproxyport|No|No|YES, NO|
 |usip|No|No|YES, NO|

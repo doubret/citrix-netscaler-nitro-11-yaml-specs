@@ -30,12 +30,8 @@ Spec for **responderpolicy** resource - [citrix documentation page](https://deve
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[responderaction.name](/doc/resources/responderaction.md)
-|
-|appflowaction|No|No
-|[appflowaction.name](/doc/resources/appflowaction.md)
-|
+|action|No|No|[responderaction.name](/doc/resources/responderaction.md)|
+|appflowaction|No|No|[appflowaction.name](/doc/resources/appflowaction.md)|
 |comment|No|No|string|
 |logaction|No|No|string|
 |name|No|No|string|

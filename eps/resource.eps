@@ -40,8 +40,8 @@ Spec for **<%= $name %>** resource - [citrix documentation page](https://develop
 |<%= $field.Name -%>
 |<%= if($field.Value.EndsWith("[]")) { "Yes" } else { "No" } -%>
 |<%= if(($field -in $resource.Update) -or ($field -in $resource.Key)) { "Yes" } else { "No" } -%>
-<% if ($field.Value.Contains('.')) { %>
-|[<%= ($field.Value -Replace '\[\]' -Replace '\(' -Replace '\)') -Replace '\|', ', ' -%>](/doc/resources/<%= ($field.Value -Split '\.')[0] -%>.md)
+<% if ($field.Value.Contains('.')) { -%>
+|<%= "[$($field.Value -Replace '\[\]')](/doc/resources/$(($field.Value -Split '\.')[0]).md)" -%>
 <% } else { -%>
 |<%= ($field.Value -Replace '\[\]' -Replace '\(' -Replace '\)') -Replace '\|', ', ' -%>
 <% } -%>

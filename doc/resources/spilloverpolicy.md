@@ -30,9 +30,7 @@ Spec for **spilloverpolicy** resource - [citrix documentation page](https://deve
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[spilloveraction.name](/doc/resources/spilloveraction.md)
-|
+|action|No|No|[spilloveraction.name](/doc/resources/spilloveraction.md)|
 |comment|No|No|string|
 |name|No|No|string|
 |rule|No|No|string|

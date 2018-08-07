@@ -48,21 +48,15 @@ Spec for **lbvserver** resource - [citrix documentation page](https://developer-
 |cookiename|No|No|string|
 |datalength|No|No|double|
 |dataoffset|No|No|double|
-|dbprofilename|No|No
-|[dbdbprofile.name](/doc/resources/dbdbprofile.md)
-|
+|dbprofilename|No|No|[dbdbprofile.name](/doc/resources/dbdbprofile.md)|
 |dbslb|No|No|ENABLED, DISABLED|
 |disableprimaryondown|No|No|ENABLED, DISABLED|
 |dns64|No|No|ENABLED, DISABLED|
-|dnsprofilename|No|No
-|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)
-|
+|dnsprofilename|No|No|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)|
 |downstateflush|No|No|ENABLED, DISABLED|
 |hashlength|No|No|double|
 |healththreshold|No|No|double|
-|httpprofilename|No|No
-|[nshttpprofile.name](/doc/resources/nshttpprofile.md)
-|
+|httpprofilename|No|No|[nshttpprofile.name](/doc/resources/nshttpprofile.md)|
 |httpsredirecturl|No|No|string|
 |icmpvsrresponse|No|No|PASSIVE, ACTIVE|
 |insertvserveripport|No|No|OFF, VIPADDR, V6TOV4MAPPING|
@@ -71,9 +65,7 @@ Spec for **lbvserver** resource - [citrix documentation page](https://developer-
 |ipv46|No|No|ip|
 |l2conn|No|No|ON, OFF|
 |lbmethod|No|No|ROUNDROBIN, LEASTCONNECTION, LEASTRESPONSETIME, URLHASH, DOMAINHASH, DESTINATIONIPHASH, SOURCEIPHASH, SRCIPDESTIPHASH, LEASTBANDWIDTH, LEASTPACKETS, TOKEN, SRCIPSRCPORTHASH, LRTM, CALLIDHASH, CUSTOMLOAD, LEASTREQUEST, AUDITLOGHASH, STATICPROXIMITY, USER_TOKEN|
-|lbprofilename|No|No
-|[lbprofile.lbprofilename](/doc/resources/lbprofile.md)
-|
+|lbprofilename|No|No|[lbprofile.lbprofilename](/doc/resources/lbprofile.md)|
 |listenpolicy|No|No|string|
 |listenpriority|No|No|double|
 |m|No|No|IP, MAC, IPTUNNEL, TOS|
@@ -87,9 +79,7 @@ Spec for **lbvserver** resource - [citrix documentation page](https://developer-
 |mysqlserverversion|No|No|string|
 |name|No|No|string|
 |netmask|No|No|ip_mask|
-|netprofile|No|No
-|[netprofile.name](/doc/resources/netprofile.md)
-|
+|netprofile|No|No|[netprofile.name](/doc/resources/netprofile.md)|
 |newservicerequest|No|No|double|
 |newservicerequestincrementinterval|No|No|double|
 |newservicerequestunit|No|No|PER_SECOND, PERCENT|
@@ -124,9 +114,7 @@ Spec for **lbvserver** resource - [citrix documentation page](https://developer-
 |sopersistence|No|No|ENABLED, DISABLED|
 |sopersistencetimeout|No|No|double|
 |sothreshold|No|No|double|
-|tcpprofilename|No|No
-|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
-|
+|tcpprofilename|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 |td|No|No|double|
 |timeout|No|No|int|
 |tosid|No|No|double|

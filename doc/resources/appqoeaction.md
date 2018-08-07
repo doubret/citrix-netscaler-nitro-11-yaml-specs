@@ -31,9 +31,7 @@ Spec for **appqoeaction** resource - [citrix documentation page](https://develop
 | Name | Update | Array | Type |
 |----|----|----|----|
 |altcontentpath|No|No|string|
-|altcontentsvcname|No|No
-|[service.name](/doc/resources/service.md)
-|
+|altcontentsvcname|No|No|[service.name](/doc/resources/service.md)|
 |customfile|No|No|string|
 |delay|No|No|double|
 |dosaction|No|No|SimpleResponse, HICResponse|
@@ -44,7 +42,5 @@ Spec for **appqoeaction** resource - [citrix documentation page](https://develop
 |priority|No|No|HIGH, MEDIUM, LOW, LOWEST|
 |priqdepth|No|No|double|
 |respondwith|No|No|ACS, NS|
-|tcpprofile|No|No
-|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
-|
+|tcpprofile|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 

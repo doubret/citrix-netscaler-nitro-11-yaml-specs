@@ -35,9 +35,7 @@ Spec for **transformaction** resource - [citrix documentation page](https://deve
 |cookiedomaininto|No|No|string|
 |name|No|No|string|
 |priority|No|No|double|
-|profilename|No|No
-|[transformprofile.name](/doc/resources/transformprofile.md)
-|
+|profilename|No|No|[transformprofile.name](/doc/resources/transformprofile.md)|
 |requrlfrom|No|No|string|
 |requrlinto|No|No|string|
 |resurlfrom|No|No|string|

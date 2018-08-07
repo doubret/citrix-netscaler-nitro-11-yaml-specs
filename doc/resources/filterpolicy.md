@@ -31,11 +31,7 @@ Spec for **filterpolicy** resource - [citrix documentation page](https://develop
 | Name | Update | Array | Type |
 |----|----|----|----|
 |name|No|No|string|
-|reqaction|No|No
-|[filteraction.name](/doc/resources/filteraction.md)
-|
-|resaction|No|No
-|[filteraction.name](/doc/resources/filteraction.md)
-|
+|reqaction|No|No|[filteraction.name](/doc/resources/filteraction.md)|
+|resaction|No|No|[filteraction.name](/doc/resources/filteraction.md)|
 |rule|No|No|string|
 

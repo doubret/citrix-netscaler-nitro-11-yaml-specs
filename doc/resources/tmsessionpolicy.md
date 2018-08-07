@@ -30,9 +30,7 @@ Spec for **tmsessionpolicy** resource - [citrix documentation page](https://deve
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[tmsessionaction.name](/doc/resources/tmsessionaction.md)
-|
+|action|No|No|[tmsessionaction.name](/doc/resources/tmsessionaction.md)|
 |name|No|No|string|
 |rule|No|No|string|
 

@@ -30,14 +30,10 @@ Spec for **rewritepolicy** resource - [citrix documentation page](https://develo
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[rewriteaction.name](/doc/resources/rewriteaction.md)
-|
+|action|No|No|[rewriteaction.name](/doc/resources/rewriteaction.md)|
 |comment|No|No|string|
 |logaction|No|No|string|
 |name|No|No|string|
 |rule|No|No|string|
-|undefaction|No|No
-|[rewriteaction.name](/doc/resources/rewriteaction.md)
-|
+|undefaction|No|No|[rewriteaction.name](/doc/resources/rewriteaction.md)|
 

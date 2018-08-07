@@ -30,9 +30,7 @@ Spec for **tmtrafficpolicy** resource - [citrix documentation page](https://deve
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[tmtrafficaction.name](/doc/resources/tmtrafficaction.md)
-|
+|action|No|No|[tmtrafficaction.name](/doc/resources/tmtrafficaction.md)|
 |name|No|No|string|
 |rule|No|No|string|
 

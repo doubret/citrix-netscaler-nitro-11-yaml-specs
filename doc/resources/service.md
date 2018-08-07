@@ -42,15 +42,11 @@ Spec for **service** resource - [citrix documentation page](https://developer-do
 |cmp|No|No|YES, NO|
 |comment|No|No|string|
 |customserverid|No|No|string|
-|dnsprofilename|No|No
-|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)
-|
+|dnsprofilename|No|No|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)|
 |downstateflush|No|No|ENABLED, DISABLED|
 |hashid|No|No|double|
 |healthmonitor|No|No|YES, NO|
-|httpprofilename|No|No
-|[nshttpprofile.name](/doc/resources/nshttpprofile.md)
-|
+|httpprofilename|No|No|[nshttpprofile.name](/doc/resources/nshttpprofile.md)|
 |ip|No|No|ip|
 |maxbandwidth|No|No|double|
 |maxclient|No|No|double|
@@ -66,16 +62,12 @@ Spec for **service** resource - [citrix documentation page](https://developer-do
 |rtspsessionidremap|No|No|ON, OFF|
 |sc|No|No|ON, OFF|
 |serverid|No|No|double|
-|servername|No|No
-|[server.name](/doc/resources/server.md)
-|
+|servername|No|No|[server.name](/doc/resources/server.md)|
 |servicetype|No|No|HTTP, FTP, TCP, UDP, SSL, SSL_BRIDGE, SSL_TCP, DTLS, NNTP, RPCSVR, DNS, ADNS, SNMP, RTSP, DHCPRA, ANY, SIP_UDP, SIP_TCP, SIP_SSL, DNS_TCP, ADNS_TCP, MYSQL, MSSQL, ORACLE, RADIUS, RADIUSListener, RDP, DIAMETER, SSL_DIAMETER, TFTP, SMPP, PPTP, GRE, SYSLOGTCP, SYSLOGUDP, FIX, SSL_FIX, USER_TCP, USER_SSL_TCP|
 |sp|No|No|ON, OFF|
 |svrtimeout|No|No|int|
 |tcpb|No|No|YES, NO|
-|tcpprofilename|No|No
-|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
-|
+|tcpprofilename|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 |td|No|No|double|
 |useproxyport|No|No|YES, NO|
 |usip|No|No|YES, NO|

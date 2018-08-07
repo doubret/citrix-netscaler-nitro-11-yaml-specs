@@ -36,26 +36,20 @@ Spec for **auditsyslogaction** resource - [citrix documentation page](https://de
 |dateformat|No|No|MMDDYYYY, DDMMYYYY, YYYYMMDD|
 |dns|No|No|ENABLED, DISABLED|
 |domainresolveretry|No|No|int|
-|lbvservername|No|No
-|[lbvserver.name](/doc/resources/lbvserver.md)
-|
+|lbvservername|No|No|[lbvserver.name](/doc/resources/lbvserver.md)|
 |logfacility|No|No|LOCAL0, LOCAL1, LOCAL2, LOCAL3, LOCAL4, LOCAL5, LOCAL6, LOCAL7|
 |loglevel|Yes|No|ALL, EMERGENCY, ALERT, CRITICAL, ERROR, WARNING, NOTICE, INFORMATIONAL, DEBUG, NONE|
 |lsn|No|No|ENABLED, DISABLED|
 |maxlogdatasizetohold|No|No|double|
 |name|No|No|string|
-|netprofile|No|No
-|[netprofile.name](/doc/resources/netprofile.md)
-|
+|netprofile|No|No|[netprofile.name](/doc/resources/netprofile.md)|
 |serverdomainname|No|No|string|
 |serverip|No|No|ip|
 |serverport|No|No|int|
 |sslinterception|No|No|ENABLED, DISABLED|
 |subscriberlog|No|No|ENABLED, DISABLED|
 |tcp|No|No|NONE, ALL|
-|tcpprofilename|No|No
-|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
-|
+|tcpprofilename|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 |timezone|No|No|GMT_TIME, LOCAL_TIME|
 |transport|No|No|TCP, UDP|
 |userdefinedauditlog|No|No|YES, NO|

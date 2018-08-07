@@ -30,9 +30,7 @@ Spec for **cspolicy** resource - [citrix documentation page](https://developer-d
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[csaction.name](/doc/resources/csaction.md)
-|
+|action|No|No|[csaction.name](/doc/resources/csaction.md)|
 |domain|No|No|string|
 |logaction|No|No|string|
 |policyname|No|No|string|

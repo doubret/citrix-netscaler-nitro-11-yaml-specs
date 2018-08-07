@@ -42,17 +42,11 @@ Spec for **csvserver** resource - [citrix documentation page](https://developer-
 |casesensitive|No|No|ON, OFF|
 |clttimeout|No|No|double|
 |comment|No|No|string|
-|dbprofilename|No|No
-|[dbdbprofile.name](/doc/resources/dbdbprofile.md)
-|
+|dbprofilename|No|No|[dbdbprofile.name](/doc/resources/dbdbprofile.md)|
 |disableprimaryondown|No|No|ENABLED, DISABLED|
-|dnsprofilename|No|No
-|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)
-|
+|dnsprofilename|No|No|[dnsprofile.dnsprofilename](/doc/resources/dnsprofile.md)|
 |downstateflush|No|No|ENABLED, DISABLED|
-|httpprofilename|No|No
-|[nshttpprofile.name](/doc/resources/nshttpprofile.md)
-|
+|httpprofilename|No|No|[nshttpprofile.name](/doc/resources/nshttpprofile.md)|
 |icmpvsrresponse|No|No|PASSIVE, ACTIVE|
 |insertvserveripport|No|No|OFF, VIPADDR, V6TOV4MAPPING|
 |ipmask|No|No|ip_mask|
@@ -87,9 +81,7 @@ Spec for **csvserver** resource - [citrix documentation page](https://developer-
 |sopersistencetimeout|No|No|double|
 |sothreshold|No|No|double|
 |stateupdate|No|No|ENABLED, DISABLED|
-|tcpprofilename|No|No
-|[nstcpprofile.name](/doc/resources/nstcpprofile.md)
-|
+|tcpprofilename|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 |td|No|No|double|
 |vipheader|No|No|string|
 

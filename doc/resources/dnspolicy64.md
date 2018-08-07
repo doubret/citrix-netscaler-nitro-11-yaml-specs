@@ -30,9 +30,7 @@ Spec for **dnspolicy64** resource - [citrix documentation page](https://develope
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-|action|No|No
-|[dnsaction64.actionname](/doc/resources/dnsaction64.md)
-|
+|action|No|No|[dnsaction64.actionname](/doc/resources/dnsaction64.md)|
 |name|No|No|string|
 |rule|No|No|string|
 
