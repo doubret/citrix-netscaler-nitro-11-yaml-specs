@@ -10,7 +10,7 @@ At the difference of a resource, a binding can not be updated/renamed.
 
 These specs are used to automate the creation of the following projects :
 - [Citrix Netscaler NITRO client written in go](https://github.com/doubret/citrix-netscaler-nitro-go-client)
-- [Terraform provider plugin for Citrix Netscaler](https://github.com/doubret/citrix-netscaler-terraform-provider)
+- [Terraform provider plugin for Citrix Netscaler](https://github.com/doubret/terraform-provider-netscaler)
 
 ## Documentations
 
