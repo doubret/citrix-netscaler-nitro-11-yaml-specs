@@ -4,3 +4,14 @@ fields:
   evaluates:                              (REQ|RES|MSSQL_REQ|MSSQL_RES|MYSQL_REQ|MYSQL_RES)
 key:
   - labelname
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

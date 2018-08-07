@@ -48,3 +48,14 @@ update:
   - domainsharding
   - dnsshards
   - clientsidemeasurements
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

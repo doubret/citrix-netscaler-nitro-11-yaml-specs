@@ -4,3 +4,14 @@ fields:
   policylabeltype:                        (HTTP|OTHERTCP)
 key:
   - labelname
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

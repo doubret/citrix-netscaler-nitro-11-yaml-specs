@@ -4,3 +4,14 @@ fields:
   cspolicylabeltype:                      (HTTP|TCP|RTSP|SSL|SSL_TCP|UDP|DNS|SIP_UDP|SIP_TCP|ANY|RADIUS|RDP|MYSQL|MSSQL|ORACLE|DIAMETER|SSL_DIAMETER|FTP|DNS_TCP|SMPP)
 key:
   - labelname
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

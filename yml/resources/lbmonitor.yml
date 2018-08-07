@@ -186,20 +186,14 @@ update:
   - trofscode
   - trofsstring
   - sslprofile
-todo:
-  authapplicationid:                      double[]
-  acctapplicationid:                      double[]
-  supportedvendorids:                     double[]
-  vendorspecificauthapplicationids:       double[]
-  vendorspecificacctapplicationids:       double[]
-  respcode:                               string[]
-  ipaddress:                              string[]
-todo_update:
-  - authapplicationid
-  - acctapplicationid
-  - inbandsecurityid
-  - supportedvendorids
-  - vendorspecificauthapplicationids
-  - vendorspecificacctapplicationids
-  - respcode
-  - ipaddress
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

@@ -3,3 +3,14 @@ fields:
   labelname:                              string
 key:
   - labelname
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

@@ -14,3 +14,14 @@ update:
   - undefaction
   - comment
   - logaction
+operations:
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable

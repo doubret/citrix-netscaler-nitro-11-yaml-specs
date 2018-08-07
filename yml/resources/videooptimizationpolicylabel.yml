@@ -6,5 +6,13 @@ fields:
 key:
   - labelname
 operations:
-  rename:                                 true
-  update:                                 true
+  - add
+  - get
+  - update
+  - unset
+  - delete
+  - list
+  - rename
+  - count
+  - enable
+  - disable
