@@ -35,5 +35,3 @@ operations:
   - list
   - rename
   - count
-  - enable
-  - disable

@@ -193,7 +193,6 @@ operations:
   - unset
   - delete
   - list
-  - rename
   - count
   - enable
   - disable
