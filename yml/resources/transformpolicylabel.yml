@@ -3,4 +3,4 @@ fields:
   labelname:                              string
   policylabeltype:                        (http_req)
 key:
-  - name
+  - labelname

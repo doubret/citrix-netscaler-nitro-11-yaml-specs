@@ -21,7 +21,7 @@ Spec for **pqpolicy** resource - [citrix documentation page](https://developer-d
 
 | Name | Type |
 |----|----|
-| name |  |
+| policyname | string |
 
 ## Operations
 

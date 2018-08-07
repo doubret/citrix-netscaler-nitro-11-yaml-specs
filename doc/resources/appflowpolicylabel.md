@@ -17,7 +17,7 @@ Spec for **appflowpolicylabel** resource - [citrix documentation page](https://d
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

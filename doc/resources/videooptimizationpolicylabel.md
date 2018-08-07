@@ -18,7 +18,7 @@ Spec for **videooptimizationpolicylabel** resource - [citrix documentation page]
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

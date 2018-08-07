@@ -7,7 +7,7 @@ fields:
   logaction:                              string
   action:                                 csaction.name
 key:
-  - name
+  - policyname
 update:
   - url
   - rule

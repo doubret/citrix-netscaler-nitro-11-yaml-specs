@@ -17,7 +17,7 @@ Spec for **cmppolicylabel** resource - [citrix documentation page](https://devel
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

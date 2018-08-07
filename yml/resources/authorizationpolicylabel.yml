@@ -2,4 +2,4 @@ scope:                                    authorization
 fields:
   labelname:                              string
 key:
-  - name
+  - labelname

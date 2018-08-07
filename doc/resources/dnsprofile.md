@@ -24,7 +24,7 @@ Spec for **dnsprofile** resource - [citrix documentation page](https://developer
 
 | Name | Type |
 |----|----|
-| name |  |
+| dnsprofilename | string |
 
 ## Operations
 

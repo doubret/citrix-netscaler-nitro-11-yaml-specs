@@ -3,4 +3,4 @@ fields:
   labelname:                              string
   type:                                   (REQ|RES)
 key:
-  - name
+  - labelname

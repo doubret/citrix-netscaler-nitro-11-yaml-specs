@@ -22,7 +22,7 @@ Spec for **cachepolicy** resource - [citrix documentation page](https://develope
 
 | Name | Type |
 |----|----|
-| name |  |
+| policyname | string |
 
 ## Operations
 

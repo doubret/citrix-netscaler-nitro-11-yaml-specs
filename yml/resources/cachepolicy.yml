@@ -8,7 +8,7 @@ fields:
   action:                                 (CACHE|NOCACHE|MAY_CACHE|MAY_NOCACHE|INVAL)
   undefaction:                            (NOCACHE|RESET)
 key:
-  - name
+  - policyname
 update:
   - rule
   - action

@@ -35,7 +35,7 @@ fields:
   memberport:                             int
   monconnectionclose:                     (RESET|FIN)
 key:
-  - name
+  - servicegroupname
 update:
   - maxclient
   - maxreq

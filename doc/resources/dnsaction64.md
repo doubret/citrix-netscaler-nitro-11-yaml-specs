@@ -19,7 +19,7 @@ Spec for **dnsaction64** resource - [citrix documentation page](https://develope
 
 | Name | Type |
 |----|----|
-| name |  |
+| actionname | string |
 
 ## Operations
 

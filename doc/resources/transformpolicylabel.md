@@ -17,7 +17,7 @@ Spec for **transformpolicylabel** resource - [citrix documentation page](https:/
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

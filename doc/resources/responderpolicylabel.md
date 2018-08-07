@@ -18,7 +18,7 @@ Spec for **responderpolicylabel** resource - [citrix documentation page](https:/
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

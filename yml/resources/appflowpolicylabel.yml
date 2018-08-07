@@ -3,4 +3,4 @@ fields:
   labelname:                              string
   policylabeltype:                        (HTTP|OTHERTCP)
 key:
-  - name
+  - labelname

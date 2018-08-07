@@ -17,7 +17,7 @@ Spec for **cspolicylabel** resource - [citrix documentation page](https://develo
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

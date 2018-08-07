@@ -18,7 +18,7 @@ Spec for **rewritepolicylabel** resource - [citrix documentation page](https://d
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

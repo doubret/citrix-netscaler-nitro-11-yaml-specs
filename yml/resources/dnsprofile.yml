@@ -10,7 +10,7 @@ fields:
   dropmultiqueryrequest:                  (ENABLED|DISABLED)
   cacheecsresponses:                      (ENABLED|DISABLED)
 key:
-  - name
+  - dnsprofilename
 update:
   - dnsquerylogging
   - dnsanswerseclogging

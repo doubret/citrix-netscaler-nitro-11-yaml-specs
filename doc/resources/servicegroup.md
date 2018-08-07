@@ -49,7 +49,7 @@ Spec for **servicegroup** resource - [citrix documentation page](https://develop
 
 | Name | Type |
 |----|----|
-| name |  |
+| servicegroupname | string |
 
 ## Operations
 

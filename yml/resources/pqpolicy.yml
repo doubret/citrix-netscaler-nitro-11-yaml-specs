@@ -7,7 +7,7 @@ fields:
   qdepth:                                 double
   polqdepth:                              double
 key:
-  - name
+  - policyname
 update:
   - weight
   - qdepth

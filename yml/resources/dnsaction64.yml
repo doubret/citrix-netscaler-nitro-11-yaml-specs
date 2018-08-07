@@ -5,7 +5,7 @@ fields:
   mappedrule:                             string
   excluderule:                            string
 key:
-  - name
+  - actionname
 update:
   - prefix
   - mappedrule

@@ -17,7 +17,7 @@ Spec for **cachepolicylabel** resource - [citrix documentation page](https://dev
 
 | Name | Type |
 |----|----|
-| name |  |
+| labelname | string |
 
 ## Operations
 

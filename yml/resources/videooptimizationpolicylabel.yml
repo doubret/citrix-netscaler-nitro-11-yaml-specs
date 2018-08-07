@@ -4,7 +4,7 @@ fields:
   policylabeltype:                        (videoopt_req|videoopt_res)
   comment:                                string
 key:
-  - name
+  - labelname
 operations:
   rename:                                 true
   update:                                 true
