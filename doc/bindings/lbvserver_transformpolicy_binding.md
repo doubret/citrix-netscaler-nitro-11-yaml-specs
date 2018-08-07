@@ -2,15 +2,30 @@
 
 Spec for **lbvserver_transformpolicy_binding** binding - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbvserver_transformpolicy_binding/lbvserver_transformpolicy_binding/)
 
-- [Identifier](#identifier)
-- [Operations](#operations)
 - [Fields](#fields)
+- [Key](#key)
+- [Operations](#operations)
 
-## Identifier
+## Fields
 
-- name
-- policyname
-- bindpoint
+| Name | Array | Type |
+|----|----|
+|bindpoint|No|REQUEST, RESPONSE|
+|gotopriorityexpression|No|string|
+|invoke|No|bool|
+|labelname|No|string|
+|labeltype|No|reqvserver, resvserver, policylabel|
+|name|No|[lbvserver.name](/doc/resources/lbvserver.md)|
+|policyname|No|[transformpolicy.name](/doc/resources/transformpolicy.md)|
+|priority|No|double|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | lbvserver.name |
+| policyname | transformpolicy.name |
+| bindpoint | REQUEST, RESPONSE |
 
 ## Operations
 
@@ -20,17 +35,4 @@ Spec for **lbvserver_transformpolicy_binding** binding - [citrix documentation p
 | Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_transformpolicy_binding/<name>` |
 | Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_transformpolicy_binding/<name>` |
 | Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_transformpolicy_binding` |
-
-## Fields
-
-| Name | Type |
-|----|----|
-| bindpoint | REQUEST, RESPONSE |
-| gotopriorityexpression | string |
-| invoke | bool |
-| labelname | string |
-| labeltype | reqvserver, resvserver, policylabel |
-| name | lbvserver.name |
-| policyname | transformpolicy.name |
-| priority | double |
 

@@ -8,7 +8,6 @@ Spec for **<%= $name %>** resource - [citrix documentation page](https://develop
 
 ## Fields
 
-<% if ($resource.Fields) { -%>
 | Name | Update | Array | Type |
 |----|----|----|----|
 <% if($resource.State) { -%>
@@ -24,7 +23,6 @@ Spec for **<%= $name %>** resource - [citrix documentation page](https://develop
 |<%= ($field.Value -Replace '\[\]' -Replace '\(' -Replace '\)') -Replace '\|', ', ' -%>
 <% } -%>
 |
-<% } -%>
 <% } -%>
 
 ## Key

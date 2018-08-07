@@ -2,14 +2,24 @@
 
 Spec for **policydataset_value_binding** binding - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/policy/policydataset_value_binding/policydataset_value_binding/)
 
-- [Identifier](#identifier)
-- [Operations](#operations)
 - [Fields](#fields)
+- [Key](#key)
+- [Operations](#operations)
 
-## Identifier
+## Fields
 
-- name
-- value
+| Name | Array | Type |
+|----|----|
+|index|No|double|
+|name|No|[policydataset.name](/doc/resources/policydataset.md)|
+|value|No|string|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | policydataset.name |
+| value | string |
 
 ## Operations
 
@@ -19,12 +29,4 @@ Spec for **policydataset_value_binding** binding - [citrix documentation page](h
 | Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/policydataset_value_binding/<name>` |
 | Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/policydataset_value_binding/<name>` |
 | Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/policydataset_value_binding` |
-
-## Fields
-
-| Name | Type |
-|----|----|
-| index | double |
-| name | policydataset.name |
-| value | string |
 

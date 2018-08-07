@@ -2,14 +2,28 @@
 
 Spec for **lbvserver_auditsyslogpolicy_binding** binding - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbvserver_auditsyslogpolicy_binding/lbvserver_auditsyslogpolicy_binding/)
 
-- [Identifier](#identifier)
-- [Operations](#operations)
 - [Fields](#fields)
+- [Key](#key)
+- [Operations](#operations)
 
-## Identifier
+## Fields
 
-- name
-- policyname
+| Name | Array | Type |
+|----|----|
+|gotopriorityexpression|No|string|
+|invoke|No|bool|
+|labelname|No|string|
+|labeltype|No|reqvserver, resvserver, policylabel|
+|name|No|[lbvserver.name](/doc/resources/lbvserver.md)|
+|policyname|No|[auditsyslogpolicy.name](/doc/resources/auditsyslogpolicy.md)|
+|priority|No|double|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | lbvserver.name |
+| policyname | auditsyslogpolicy.name |
 
 ## Operations
 
@@ -19,16 +33,4 @@ Spec for **lbvserver_auditsyslogpolicy_binding** binding - [citrix documentation
 | Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_auditsyslogpolicy_binding/<name>` |
 | Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_auditsyslogpolicy_binding/<name>` |
 | Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_auditsyslogpolicy_binding` |
-
-## Fields
-
-| Name | Type |
-|----|----|
-| gotopriorityexpression | string |
-| invoke | bool |
-| labelname | string |
-| labeltype | reqvserver, resvserver, policylabel |
-| name | lbvserver.name |
-| policyname | auditsyslogpolicy.name |
-| priority | double |
 

@@ -2,14 +2,28 @@
 
 Spec for **lbvserver_scpolicy_binding** binding - [citrix documentation page](https://developer-docs.citrix.com/projects/netscaler-nitro-api/en/11.0/configuration/load-balancing/lbvserver_scpolicy_binding/lbvserver_scpolicy_binding/)
 
-- [Identifier](#identifier)
-- [Operations](#operations)
 - [Fields](#fields)
+- [Key](#key)
+- [Operations](#operations)
 
-## Identifier
+## Fields
 
-- name
-- policyname
+| Name | Array | Type |
+|----|----|
+|gotopriorityexpression|No|string|
+|invoke|No|bool|
+|labelname|No|string|
+|labeltype|No|reqvserver, resvserver, policylabel|
+|name|No|[lbvserver.name](/doc/resources/lbvserver.md)|
+|policyname|No|[scpolicy.name](/doc/resources/scpolicy.md)|
+|priority|No|double|
+
+## Key
+
+| Name | Type |
+|----|----|
+| name | lbvserver.name |
+| policyname | scpolicy.name |
 
 ## Operations
 
@@ -19,16 +33,4 @@ Spec for **lbvserver_scpolicy_binding** binding - [citrix documentation page](ht
 | Get | GET | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_scpolicy_binding/<name>` |
 | Delete | DELETE | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_scpolicy_binding/<name>` |
 | Add | POST | `http://<netscaler-ip-address>/nitro/v1/config/lbvserver_scpolicy_binding` |
-
-## Fields
-
-| Name | Type |
-|----|----|
-| gotopriorityexpression | string |
-| invoke | bool |
-| labelname | string |
-| labeltype | reqvserver, resvserver, policylabel |
-| name | lbvserver.name |
-| policyname | scpolicy.name |
-| priority | double |
 
