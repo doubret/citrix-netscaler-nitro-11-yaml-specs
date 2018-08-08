@@ -1,7 +1,7 @@
 scope:                                    basic
-state:                                    state
 fields:
   name:                                   string
+  state:                                  (ENABLED|DISABLED)
   comment:                                string
   domain:                                 string
   domainresolveretry:                     int
