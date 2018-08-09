@@ -1,5 +1,4 @@
 scope:                                    load-balancing
-state:                                    state
 fields:
   name:                                   string
   servicetype:                            (HTTP|FTP|TCP|UDP|SSL|SSL_BRIDGE|SSL_TCP|DTLS|NNTP|DNS|DHCPRA|ANY|SIP_UDP|SIP_TCP|SIP_SSL|DNS_TCP|RTSP|PUSH|SSL_PUSH|RADIUS|RDP|MYSQL|MSSQL|DIAMETER|SSL_DIAMETER|TFTP|ORACLE|SMPP|SYSLOGTCP|SYSLOGUDP|FIX|SSL_FIX|USER_TCP|USER_SSL_TCP)

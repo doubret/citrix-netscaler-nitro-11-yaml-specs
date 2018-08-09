@@ -96,7 +96,6 @@ key:
   - monitorname
   - type
 update:
-  - type
   - action
   - httprequest
   - rtsprequest

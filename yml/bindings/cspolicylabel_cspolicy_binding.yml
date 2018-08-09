@@ -1,0 +1,14 @@
+scope:                                    content-switching
+fields:
+  labelname:                              cspolicylabel.labelname
+  policyname:                             cspolicy.policyname
+  priority:                               double
+  # todo : ref ?
+  targetvserver:                          string
+  gotopriorityexpression:                 string
+  invoke:                                 bool
+  labeltype:                              (reqvserver, resvserver, policylabel)
+  invoke_labelname:                       string
+key:
+  - labelname
+  - policyname

@@ -1,0 +1,13 @@
+scope:                                    content-switching
+fields:
+  name:                                   csvserver.name
+  policyname:                             spilloverpolicy.name
+  targetlbvserver:                        lbvserver.name
+  priority:                               double
+  gotopriorityexpression:                 string
+  invoke:                                 bool
+  labeltype:                              (reqvserver|resvserver|policylabel)
+  labelname:                              string
+key:
+  - name
+  - policyname
