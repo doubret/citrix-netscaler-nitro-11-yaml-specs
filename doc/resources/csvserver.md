@@ -10,7 +10,6 @@ Spec for **csvserver** resource - [citrix documentation page](https://developer-
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-| state | No | No | ENABLED, DISABLED |
 |appflowlog|No|No|ENABLED, DISABLED|
 |authentication|No|No|ON, OFF|
 |authenticationhost|No|No|string|
@@ -60,6 +59,7 @@ Spec for **csvserver** resource - [citrix documentation page](https://developer-
 |sopersistence|No|No|ENABLED, DISABLED|
 |sopersistencetimeout|No|No|double|
 |sothreshold|No|No|double|
+|state|No|No|ENABLED, DISABLED|
 |stateupdate|No|No|ENABLED, DISABLED|
 |tcpprofilename|No|No|[nstcpprofile.name](/doc/resources/nstcpprofile.md)|
 |td|No|No|double|

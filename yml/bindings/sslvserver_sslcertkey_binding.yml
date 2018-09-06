@@ -1,0 +1,13 @@
+scope:                                    ssl
+fields:
+  vservername:                            string
+  certkeyname:                            string
+  ca:                                     bool
+  crlcheck:                               string
+  skipcaname:                             bool
+  snicert:                                bool
+  ocspcheck:                              string
+key:
+  - vservername
+  - certkeyname
+  - ca

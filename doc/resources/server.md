@@ -10,13 +10,13 @@ Spec for **server** resource - [citrix documentation page](https://developer-doc
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-| state | No | No | ENABLED, DISABLED |
 |comment|No|No|string|
 |domain|No|No|string|
 |domainresolveretry|No|No|int|
 |ipaddress|No|No|ip|
 |ipv6address|No|No|YES, NO|
 |name|No|No|string|
+|state|No|No|ENABLED, DISABLED|
 |td|No|No|double|
 |translationip|No|No|ip|
 |translationmask|No|No|ip_mask|

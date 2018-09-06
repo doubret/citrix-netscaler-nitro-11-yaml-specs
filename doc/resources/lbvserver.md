@@ -10,7 +10,6 @@ Spec for **lbvserver** resource - [citrix documentation page](https://developer-
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-| state | No | No | ENABLED, DISABLED |
 |appflowlog|No|No|ENABLED, DISABLED|
 |authentication|No|No|ON, OFF|
 |authenticationhost|No|No|string|

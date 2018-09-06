@@ -1,0 +1,7 @@
+scope:                                    ssl
+fields:
+  vservername:                            string
+  ciphername:                             string
+key:
+  - vservername
+  - ciphername

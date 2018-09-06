@@ -10,7 +10,6 @@ Spec for **lbmonitor** resource - [citrix documentation page](https://developer-
 
 | Name | Update | Array | Type |
 |----|----|----|----|
-| state | No | No | ENABLED, DISABLED |
 |action|No|No|NONE, LOG, DOWN|
 |alertretries|No|No|int|
 |application|No|No|string|
@@ -83,6 +82,7 @@ Spec for **lbmonitor** resource - [citrix documentation page](https://developer-
 |snmpversion|No|No|string|
 |sqlquery|No|No|string|
 |sslprofile|No|No|string|
+|state|No|No|ENABLED, DISABLED|
 |storedb|No|No|string|
 |storefrontacctservice|No|No|string|
 |storefrontcheckbackendservices|No|No|string|
